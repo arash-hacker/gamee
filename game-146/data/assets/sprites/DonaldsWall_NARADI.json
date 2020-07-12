@@ -1,0 +1,44 @@
+{"frames": {
+
+"DonaldsWall_NARADI01.png":
+{
+	"frame": {"x":1,"y":1,"w":51,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":4,"w":51,"h":103},
+	"sourceSize": {"w":61,"h":107}
+},
+"DonaldsWall_NARADI02.png":
+{
+	"frame": {"x":1,"y":106,"w":51,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":4,"w":51,"h":103},
+	"sourceSize": {"w":61,"h":107}
+},
+"DonaldsWall_NARADI03.png":
+{
+	"frame": {"x":1,"y":211,"w":51,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":4,"w":51,"h":103},
+	"sourceSize": {"w":61,"h":107}
+},
+"DonaldsWall_NARADI04.png":
+{
+	"frame": {"x":1,"y":106,"w":51,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":4,"w":51,"h":103},
+	"sourceSize": {"w":61,"h":107}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "DonaldsWall_NARADI.png",
+	"format": "RGBA8888",
+	"size": {"w":53,"h":315},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:1fb82e4312e1b8b65594efeabcbbedf7:0025157cf2f6ea324835f3f481a4892d:6298cba66b36800ec166246588055031$"
+}
+}

@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>2+2 game</title>
+        <link rel="stylesheet" type="text/css" href="twos.css" />
+        
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+</script>
+   <!-- onclick="Gamee2.Gamee._onStart.dispatch()" -->
+    </head>
+
+    <body>
+           
+              <div class="gm4html5_div_class container" id="gm4html5_div_id ">
+                <!-- Create the canvas element the game draws to -->
+                <canvas id="pane"></canvas>
+            </div>
+            <div style="position: absolute; top: 0px; width: 100%; background-color: aliceblue;display: flex;justify-content: center; color: black; ">
+            
+                
+                    <button style=" font-size: 0.8rem; text-align: center;" id="score" type="button" class="btn btn-success" >0      </button>
+                   
+                  
+                   
+                  </div>
+        <button id="success" type="button" style="display: none;" class="btn btn-primary" data-toggle="modal" data-target="#myModal"  data-backdrop="static" data-keyboard="false">
+    
+        </button>
+      
+        <!-- The Modal -->
+        <div class="modal" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">     
+             
+              <div class="modal-body">
+                 <p style="text-align: right;">برای شروع دوباره کلیک کنید</p>
+              <img data-dismiss="modal" style=" display: block; margin: 0 auto;" onclick="gamee.onRestart()" src="./assets/play.svg" alt="">
+              </div>
+              
+           
+            </div>
+          </div>
+        </div>
+      <button id="alt-n">right</button><button id="ctrl-g element">left</button>
+    
+          
+            
+        <script src="out.min.js"></script>
+    </body>
+    <script>
+     $('.container').mousedown(function(e1){
+    var mx = e1.pageX;//register the mouse down position
+
+    $(this).mousemove(function(e2){
+
+        if (e2.pageX > mx){ //right w.r.t mouse down position
+            console.log("Moved Right");
+        } else {
+            console.log("Moved Left")
+        }
+    });
+});     
+  $('.container').mouseup(function(){
+    $(this).unbind("mousemove");
+});
+    </script>
+    <script>
+     
+document.onkeydown = checkKey;
+
+function checkKey(e) {
+
+    e = e || window.event;
+
+    if (e.keyCode == '38') {
+      console.log("up arrow")
+  
+    }
+    else if (e.keyCode == '40') {
+      console.log("down arrow")
+
+        // down arrow
+    }
+    else if (e.keyCode == '37') {
+       // left arrow
+       console.log("left arrow")
+
+    }
+    else if (e.keyCode == '39') {
+       // right arrow
+      console.log("right arrow")
+
+    }
+
+}
+    </script>
+</html>
+

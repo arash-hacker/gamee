@@ -1,0 +1,44 @@
+{"frames": {
+
+"DonaldsWall_TACO01.png":
+{
+	"frame": {"x":1,"y":1,"w":42,"h":107},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":42,"h":107},
+	"sourceSize": {"w":42,"h":107}
+},
+"DonaldsWall_TACO02.png":
+{
+	"frame": {"x":1,"y":110,"w":42,"h":107},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":42,"h":107},
+	"sourceSize": {"w":42,"h":107}
+},
+"DonaldsWall_TACO03.png":
+{
+	"frame": {"x":1,"y":219,"w":42,"h":107},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":42,"h":107},
+	"sourceSize": {"w":42,"h":107}
+},
+"DonaldsWall_TACO04.png":
+{
+	"frame": {"x":1,"y":110,"w":42,"h":107},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":42,"h":107},
+	"sourceSize": {"w":42,"h":107}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "DonaldsWall_TACO.png",
+	"format": "RGBA8888",
+	"size": {"w":44,"h":327},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:2a1705cce7de53231af55706574bd9fa:e33eab63d20d9f447754fbba80f441b0:2189d89c8d4888db3f01db0056c56409$"
+}
+}

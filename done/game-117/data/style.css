@@ -1,0 +1,167 @@
+body {
+    background: #000000;
+    color: #cccccc;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+  }
+
+  canvas {
+            image-rendering: optimizeSpeed;
+            -webkit-interpolation-mode: nearest-neighbor;
+            -ms-touch-action: none;
+            margin: 0px;
+            padding: 0px;
+            border: 0px;
+            top: 0% !important; 
+            /* height: 90vh !important; */
+            /* height: 560px !important; */
+          }
+
+
+  :-webkit-full-screen #canvas {
+    width: 100%;
+    height: 100%;
+  }
+
+  div.gm4html5_div_class {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+  }
+
+  :-webkit-full-screen {
+    width: 100%;
+    height: 100%;
+  }
+  #res-controller{
+  display: none;
+  }
+
+.left-btn{
+  border: none;
+  position: absolute;
+  left: 0;
+    top: 0;
+    height: 100% !important;
+    width: 50%;
+    background: none;
+    outline: none!important ;
+    box-shadow: none!important ;
+}
+.right-btn{
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100% !important;
+  width: 50%;
+  background: none;
+  outline: none!important ;
+  box-shadow: none!important ;
+}
+.left-btn span{
+position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80%;
+  height: 6%;
+  background: gray;
+}
+.right-btn span{
+position: absolute;
+  bottom: 0;
+ right: 0;
+  width: 80%;
+  height: 6%;
+  background: gray;
+}
+  .start-sec{
+      width: 100%;
+      height: 100%;
+      background-color: black;
+  }
+  #circle{
+    position: absolute !important;
+    width: 50px!important;
+    height:50px  !important;
+    right: 50%  !important;
+    bottom: 9%;
+  }
+  #circle img{
+    position: absolute;
+    width: 100%;
+    top:10%;
+    left: 20%;
+  }
+  .loadingBar{
+    width: 50px !important;
+     height:50px !important;
+     position: absolute !important;
+     right: 50% !important;
+    bottom: 9%;
+    display: none;
+  }
+  #add{
+    display: block;
+
+
+  }
+  @media only screen and (min-width: 1024px) {
+    canvas {
+      position: absolute;
+       top: 7% !important; 
+       height: 580px !important;
+      top: 0% !important;
+      bottom: 10%;
+      /* height: 100vh !important;  */
+      
+
+}
+#circle canvas{
+    height: 100% !important;
+
+}
+}
+  @media only screen and (max-width: 1024px) {
+    #res-controller {
+              display: block;
+              position: absolute;
+             width: 100%;
+              height: 100% !important;                
+              bottom: 0%;
+}
+#circle canvas{
+  height: 100% !important;
+
+}
+  }
+   /* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 992px) {
+    body {
+      /* background-color: blue;*/
+
+          color: white;
+    }
+    #circle canvas{
+      height: 100% !important;
+  
+  }
+  }
+    /* Extra small devices (phones, 740px and down) */
+@media only screen and (max-width: 740px) {
+     /* body{background: red;} */
+     #circle canvas{
+      height: 100% !important;
+  
+  }
+  }
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+     /* body{background: rgb(17, 163, 221);} */
+     #circle canvas{
+      height: 100% !important;
+  
+  }
+  }
+  

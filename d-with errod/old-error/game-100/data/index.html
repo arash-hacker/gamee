@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="pragma" content="no-cache"/>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta charset="utf-8"/>
+        <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous"
+      />
+      <script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"
+      ></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"
+      ></script>
+        <!-- Set the title bar of the page -->
+        <title>Hamster Fly</title>
+
+        <!-- Set the background colour of the document -->
+        <style>
+            body {
+              background: #000000;
+              color:#cccccc;
+              margin: 0px;
+              padding: 0px;
+              border: 0px;
+            }
+            canvas {
+                      image-rendering: optimizeSpeed;
+                      -webkit-interpolation-mode: nearest-neighbor;
+                      -ms-touch-action: none;
+                      margin: 0px;
+                      padding: 0px;
+                      border: 0px;
+            }
+            :-webkit-full-screen #canvas {
+                 width: 100%;
+                 height: 100%;
+            }
+            div.gm4html5_div_class
+            {
+              margin: 0px;
+              padding: 0px;
+              border: 0px;
+            }
+            :-webkit-full-screen {
+               width: 100%;
+               height: 100%;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="gm4html5_div_class" id="gm4html5_div_id">
+            <!-- Create the canvas element the game draws to -->
+            <canvas id="canvas" width="480" height="480" style="position: absolute; left: 0px; top: 0px; width: 160px; height: 160px;">
+               <p>Your browser doesn't support HTML5 canvas.</p>
+            </canvas>
+            <div
+      style="
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      "
+    >
+      <div>
+        <div class="" style="margin-bottom: 5px;">
+          <button
+            style="width: 100%; font-size: 0.8rem; text-align: center;"
+            type="button"
+            class="SeeMore2 btn btn-success"
+           id="stGame"
+          >
+            شروع
+          </button>
+        </div>
+      </div>
+      <div>
+        <div class="" style="margin-bottom: 5px;">
+          <button
+            style="width: 100%; font-size: 0.8rem; text-align: center;"
+            type="button"
+            class="btn btn-danger"
+            onclick="gmCallback.gamee_onPause()"
+          >
+            وقفه
+          </button>
+        </div>
+
+        <div class="" style="margin-bottom: 5px;">
+          <button
+            style="width: 100%; font-size: 0.8rem; text-align: center;"
+            type="button"
+            class="btn btn-warning"
+            onclick="gamee.onUnpause()"
+          >
+            ادامه
+          </button>
+        </div>
+        <div class="" style="margin-bottom: 5px;">
+          <button
+            style="width: 100%; font-size: 0.8rem; text-align: center;"
+            type="button"
+            class="btn btn-white"
+            onclick="gamee.onUnpause()"
+          >
+            بی صدا
+          </button>
+        </div>    <div class="" style="margin-bottom: 5px;">
+          <button
+            style="width: 100%; font-size: 0.8rem; text-align: center;"
+            type="button"
+            class="btn btn-info"
+            onclick="gamee.onUnpause()"
+          >
+            با صدا
+          </button>
+        </div>
+
+        <div id="done"></div>
+      </div>
+    </div>
+        </div>
+
+	<script type="text/javascript" src="html5game/gamee.all.min.js"></script>
+        <script type="text/javascript" src="html5game/HamsterFly.js"></script>
+        <script>
+      $("#stGame").click(function(){
+console.log("click start")
+setTimeout(() => {
+    gameeState=2
+    gmCallback["gamee_onRestart"]()
+    console.log("dd")     
+    }, 500);        
+           
+      
+    })
+          </script>
+    </body>
+</html>
+

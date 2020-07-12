@@ -1,0 +1,124 @@
+{"frames": {
+
+"DonaldsWall_MAFIE0201.png":
+{
+	"frame": {"x":171,"y":1,"w":73,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":73,"h":131},
+	"sourceSize": {"w":79,"h":131}
+},
+"DonaldsWall_MAFIE0202.png":
+{
+	"frame": {"x":246,"y":1,"w":73,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":73,"h":131},
+	"sourceSize": {"w":79,"h":131}
+},
+"DonaldsWall_MAFIE0203.png":
+{
+	"frame": {"x":321,"y":1,"w":73,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":73,"h":131},
+	"sourceSize": {"w":79,"h":131}
+},
+"DonaldsWall_MAFIE0204.png":
+{
+	"frame": {"x":246,"y":1,"w":73,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":73,"h":131},
+	"sourceSize": {"w":79,"h":131}
+},
+"DonaldsWall_MAFIE0205.png":
+{
+	"frame": {"x":396,"y":1,"w":73,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":73,"h":131},
+	"sourceSize": {"w":79,"h":131}
+},
+"DonaldsWall_MAFIE0206.png":
+{
+	"frame": {"x":471,"y":1,"w":73,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":73,"h":131},
+	"sourceSize": {"w":79,"h":131}
+},
+"DonaldsWall_MAFIE0207.png":
+{
+	"frame": {"x":396,"y":1,"w":73,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":73,"h":131},
+	"sourceSize": {"w":79,"h":131}
+},
+"DonaldsWall_MAFIE0208.png":
+{
+	"frame": {"x":546,"y":1,"w":73,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":73,"h":131},
+	"sourceSize": {"w":79,"h":131}
+},
+"DonaldsWall_MAFIE0209.png":
+{
+	"frame": {"x":621,"y":1,"w":71,"h":131},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":131},
+	"sourceSize": {"w":71,"h":131}
+},
+"DonaldsWall_MAFIE0210.png":
+{
+	"frame": {"x":694,"y":1,"w":71,"h":131},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":131},
+	"sourceSize": {"w":71,"h":131}
+},
+"DonaldsWall_MAFIE0211.png":
+{
+	"frame": {"x":621,"y":1,"w":71,"h":131},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":131},
+	"sourceSize": {"w":71,"h":131}
+},
+"DonaldsWall_MAFIE0212.png":
+{
+	"frame": {"x":767,"y":1,"w":71,"h":131},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":131},
+	"sourceSize": {"w":71,"h":131}
+},
+"DonaldsWall_MAFIE0213.png":
+{
+	"frame": {"x":1,"y":1,"w":92,"h":131},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":92,"h":131},
+	"sourceSize": {"w":92,"h":131}
+},
+"DonaldsWall_MAFIE0214.png":
+{
+	"frame": {"x":95,"y":1,"w":74,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":0,"w":74,"h":131},
+	"sourceSize": {"w":92,"h":131}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "DonaldsWall_MAFIE02.png",
+	"format": "RGBA8888",
+	"size": {"w":839,"h":133},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:4e136dd9f7d24f75f835e4307766f47f:f5fbb80c47fa2cfafbfdccd46a9213e3:78ba4d5527bfaf8ae06f11376feb830f$"
+}
+}

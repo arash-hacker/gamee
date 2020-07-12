@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>ProfilePlaceholder_Square</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="40" height="40"></rect>
+    </defs>
+    <g id="UI-Elements" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-12.000000, -530.000000)">
+        <g id="ProfilePlaceholder_Square" transform="translate(12.000000, 530.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Rectangle-BG" fill="#F0F3F3" xlink:href="#path-1"></use>
+            <path d="M20,24 C16.1340068,24 13,20.8659932 13,17 C13,13.1340068 16.1340068,10 20,10 C23.8659932,10 27,13.1340068 27,17 C27,20.8659932 23.8659932,24 20,24 Z M17.1202262,27 L22.8794355,27 C27.096788,27 30.860815,29.6458418 32.2887723,33.6140907 L33.5675417,37.1677512 L36.3859427,45 L3.61371906,45 L6.09200211,38.1129283 L7.7108894,33.6140907 C9.13884667,29.6458418 12.9028737,27 17.1202262,27 Z" id="icon" fill="#B1C1C3" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>

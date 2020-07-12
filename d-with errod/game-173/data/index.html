@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous" ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous" ></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=360, initial-scale=1.0, user-scalable=no">
+
+  <link href="" rel="shortcut icon" type="image/png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!--game style-->
+  <link rel="stylesheet" type="text/css" href="game.css">
+  <script type="text/javascript" src="libs/gamee-js.2.0.0.min.js"></script>
+  <script type="text/javascript" src="libs/gamee-js.2.0.0.js"></script>
+
+
+  <title>Fidget spinner</title>
+  
+  <script src="libs/twgl-full.js"></script>
+  <script src="libs/twgl-full.min.js"></script>
+  <script src="libs/shim.js"></script>
+  <script src="libs/stats.min.js"></script>
+  <script src="libs/howler.min.js"></script>
+</head>
+
+<body>
+  <div id="game-wrapper"></div>
+  <div id="overlay-wrapper"></div>
+  <div id="game-overlay"></div>
+  <div style=" position: absolute;top: 0px;width: 100%;display: flex;justify-content: space-between;">
+    <div>
+      <div class="" style="margin-bottom: 5px;">
+        <button style="width: 100%; font-size: 0.8rem; text-align: center;" type="button"
+          class="SeeMore2 btn btn-success" onclick="gamee.onRestart()">
+          شروع
+        </button>
+      </div>
+    </div>
+    <div>
+      <div class="" style="margin-bottom: 5px;">
+        <button style="width: 100%; font-size: 0.8rem; text-align: center;" type="button" class="btn btn-danger"
+          onclick=gamee.onPause()>
+          وقفه
+        </button>
+      </div>
+
+      <div class="" style="margin-bottom: 5px;">
+        <button style="width: 100%; font-size: 0.8rem; text-align: center;" type="button" class="btn btn-warning"
+          onclick=gamee.onResume()>
+          ادامه
+        </button>
+      </div>
+      <div class="" style="margin-bottom: 5px;">
+        <button style="width: 100%; font-size: 0.8rem; text-align: center;" type="button" class="btn btn-white"
+          onclick=gamee.onMute()>
+          بی صدا
+        </button>
+      </div>
+      <div class="" style="margin-bottom: 5px;">
+        <button style="width: 100%; font-size: 0.8rem; text-align: center;" type="button" class="btn btn-info"
+          onclick=gamee.onUnmute()>
+          با صدا
+        </button>
+      </div>
+
+      <div id="done"> <button style=" width: 100%;
+    font-size: 0.8rem;
+    text-align: center;" class="btn btn-success" type="button" id="score"> 0</button></div>
+    </div>
+  </div>
+
+</body>
+<script>
+
+
+  var some = false;
+
+</script>
+
+<script type="text/javascript" src="dist/dist.min.js"></script>
+
+
+</html>

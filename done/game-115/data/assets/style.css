@@ -1,0 +1,145 @@
+:root {
+    --safe-area-inset-bottom: env(safe-area-inset-bottom);
+  }
+  
+  @-webkit-keyframes moveSkeletonBackground {
+    from {
+      -webkit-transform: translateX(-100%);
+              transform: translateX(-100%);
+    }
+  
+    to {
+      -webkit-transform: translateX(100%);
+              transform: translateX(100%);
+    }
+  }
+  
+  @keyframes moveSkeletonBackground {
+    from {
+      -webkit-transform: translateX(-100%);
+              transform: translateX(-100%);
+    }
+  
+    to {
+      -webkit-transform: translateX(100%);
+              transform: translateX(100%);
+    }
+  }
+  
+  @-webkit-keyframes rotate {
+    50% {
+      -webkit-transform: translate3d(0, 0, 0) rotate(180deg);
+              transform: translate3d(0, 0, 0) rotate(180deg);
+    }
+  
+    100% {
+      -webkit-transform: translate3d(0, 0, 0) rotate(360deg);
+              transform: translate3d(0, 0, 0) rotate(360deg);
+    }
+  }
+  
+  @keyframes rotate {
+    50% {
+      -webkit-transform: translate3d(0, 0, 0) rotate(180deg);
+              transform: translate3d(0, 0, 0) rotate(180deg);
+    }
+  
+    100% {
+      -webkit-transform: translate3d(0, 0, 0) rotate(360deg);
+              transform: translate3d(0, 0, 0) rotate(360deg);
+    }
+  }
+  
+  .game-player {
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+  .game-player * {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    -webkit-touch-callout: none;
+  }
+  
+  .game-player .nav-bar {
+    display: none;
+  }
+  
+  @media (min-width: 681px) {
+    .game-player .nav-bar {
+      display: block;
+    }
+  }
+  
+  @media (min-width: 681px) {
+    .game-player .notification--top {
+      top: 48px;
+    }
+  }
+  
+  @media (min-width: 1501px) {
+    .game-player .notification--top {
+      top: 68px;
+    }
+  }
+  
+  .game-player__open-menu {
+    background-color: #b1c1c3;
+    -webkit-mask-image: url(/done/game-106/data/asset/iconmonstr-angel-left-circle-thin.svg);
+            mask-image: url(/done/game-106/data/asset/iconmonstr-angel-right-circle-thin.svg);
+    -webkit-mask-repeat: no-repeat;
+            mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+            mask-position: center;
+    -webkit-mask-size: 20px;
+            mask-size: 20px;
+    height: 32px;
+    padding: 0;
+    text-indent: -9999px;
+    width: 32px;
+  }
+  
+  .game-player__game {
+    position: relative;
+    max-height: calc(100% - 32px);
+    height: 100%;
+    width: 100%;
+  }
+  
+  @media (min-width: 681px) {
+    .game-player__game {
+      max-height: calc(100% - 32px - 48px);
+    }
+  }
+  
+  @media (min-width: 1501px) {
+    .game-player__game {
+      max-height: calc(100% - 32px - 68px);
+    }
+  }
+  
+  .game-player__game iframe {
+    display: block;
+    margin: 0 auto;
+    width: 100vw;
+  }
+  
+  .game-player__controller {
+    display: block;
+  }
+  
+  .game-controller-one-button,
+  .game-controller-two-buttons {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }

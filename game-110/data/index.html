@@ -1,0 +1,97 @@
+<!DOCTYPE html > 
+<html lang="en" > 
+    <head> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" / >
+        <meta http-equiv="pragma" content="no-cache"/ >
+        <meta name="apple-mobile-web-app-capable" content="yes" / > 
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" / > 
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" / > 
+        <meta charset="utf-8"/ >
+
+        <!-- Set the title bar of the page -->
+        <title >Hexatris</title >
+
+        <!-- Set the background colour of the document -->
+        <style > 
+	    body {
+            background: #000000;
+            color: #cccccc;
+            margin: 0px;
+            padding: 0px;
+            border: 0px;
+        }
+            canvas {
+                      image-rendering: optimizeSpeed;
+                      -webkit-interpolation-mode: nearest-neighbor;
+                      -ms-touch-action: none;
+                      touch-action: none;
+                      margin: 0px;
+                      padding: 0px;
+                      border: 0px;
+            }
+            div.gm4html5_div_class
+            {
+              margin: 0px;
+              padding: 0px;
+              border: 0px;
+            }
+            :-webkit-full-screen {
+               width: 100%;
+               height: 100%;
+            }
+ 
+        </style>
+
+    </head>
+
+    <body>
+        <div class="gm4html5_div_class" id="gm4html5_div_id">
+            <!-- Create the canvas element the game draws to -->
+            <canvas id="canvas" width="640" height="640" style="position: absolute; background-color: aqua">
+               <p>Your browser doesn't support HTML5 canvas.</p>
+            </canvas>
+        </div>
+
+        <!-- Run the game code -->
+        <script type="text/javascript">
+/*
+            var canvas = document.getElementById('canvas');
+
+                context = canvas.getContext('2d'),
+        
+                devicePixelRatio = window.devicePixelRatio || 1,
+                backingStoreRatio = context.webkitBackingStorePixelRatio ||
+                                    context.mozBackingStorePixelRatio ||
+                                    context.msBackingStorePixelRatio ||
+                                    context.oBackingStorePixelRatio ||
+                                    context.backingStorePixelRatio || 1,
+          
+          
+                ratio = devicePixelRatio / backingStoreRatio;
+                console.log(ratio);
+                if (devicePixelRatio !== backingStoreRatio) {
+            
+                    canvas.width = 640 * ratio;
+                    canvas.height = 640 * ratio;
+                    
+                    
+            
+            
+                }  
+            canvas.style.width = window.innerWidth + 'px';
+            canvas.style.height = window.innerHeight + 'px';
+
+*/
+
+        </script>
+
+
+        <!-- Run the game code -->
+	<script type="text/javascript" src="js/gamee.all.min.js"></script>
+        <script type="text/javascript" src="js/createjs-2014.12.12.min.js"></script>
+	<script type="text/javascript" src="js/howler.min.js"></script>
+        <script type="text/javascript" src="js/game.min.js"></script>
+
+    </body>
+</html>
+

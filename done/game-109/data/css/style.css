@@ -1,0 +1,28 @@
+body {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+body { 
+  overflow: hidden;
+}
+
+body::-webkit-scrollbar { 
+  width: 0 !important 
+}
+
+body { 
+  -ms-overflow-style: none; 
+}
+
+body { 
+  overflow: -moz-scrollbars-none;
+} 
+
+@media only screen and (min-width: 900px) {
+  canvas {
+     height: 93vh !important;
+   }
+ }

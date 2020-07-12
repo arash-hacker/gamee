@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="viewport" content="width=320, initial-scale=1">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous" ></script>
+      
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="background-color: aliceblue;display: flex;justify-content: space-between; color: black; ">
+        
+            <img   id="toggle" class="red" id="tttt" src="./assets/puse.svg" alt="3dote"> 
+            
+                <button style=" font-size: 0.6rem; text-align: center;" id="score" type="button" class="ml-5 btn btn-success" >0      </button>
+               
+               <div>
+                <img  onclick="gamee.onMute()" src="./assets/mute.svg" alt="3dote">
+                <img  onclick="gamee.onUnmute()" src="./assets/unmute.svg" alt="3dote">
+               </div>
+               
+        </div>
+        <div id="game" style="height: 580px !important;"></div>
+        
+        <button id="success" type="button" style="display: none;" class="btn btn-primary" data-toggle="modal" data-target="#myModal"  data-backdrop="static" data-keyboard="false">
+
+        </button>
+        
+        <!-- The Modal -->
+        <div class="modal" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">     
+             
+              <div class="modal-body">
+                 <p style="text-align: right;">برای شروع دوباره کلیک کنید</p>
+              <img data-dismiss="modal" style=" display: block; margin: 0 auto;" onclick=" gamee.onRestart();score()" src="./assets/play.svg" alt="">
+              </div>
+              
+           
+            </div>
+          </div>
+        </div>
+        <script src="lib/gamee/gamee.all.devel.js"></script>
+        <script src="lib/phaser.min.js"></script>
+        <script src="app/states/boot.js"></script>
+        <script src="app/states/preload.js"></script>
+        <script src="app/states/game.js"></script>
+        <script src="app/objects/background.js"></script>
+        <script src="app/objects/ground.js"></script>
+        <script src="app/objects/walls.js"></script>
+        <script src="app/objects/player.js"></script>
+        <script src="app/objects/score.js"></script>
+        <script src="app/objects/sound.js"></script>
+        <script src="app/app-gamee.js"></script>
+        
+    
+    <script>
+      $('#toggle').click(function(){
+        $(this).toggleClass('red green');
+      if  ($("#toggle").hasClass("red")) {
+        console.log("pause")
+       gamee.onResume()
+      } else if  ($("#toggle").hasClass("green")) {
+       gamee.onPause()
+        console.log("unpause")
+      }
+      })
+      </script>
+         <script>
+          function score(){
+            var tmp=0
+                
+                $("#score").html(tmp)
+          }
+        </script>
+      
+    
+        <script type="text/javascript" src="app.js"></script>
+        <script>
+    setTimeout(() => {
+        console.log("starting with delay")
+        gamee.gameStart();
+    }, 2000);
+    
+        </script>
+    </body>
+</html>
+

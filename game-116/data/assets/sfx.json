@@ -1,0 +1,43 @@
+{
+  "resources": [
+    "sfx.ogg",
+    "sfx.mp3"
+  ],
+  "spritemap": {
+    "bonusPickup": {
+      "start": 0,
+      "end": 0.2756235827664399,
+      "loop": false
+    },
+    "click": {
+      "start": 2,
+      "end": 2.090408163265306,
+      "loop": false
+    },
+    "crash": {
+      "start": 4,
+      "end": 4.417959183673469,
+      "loop": false
+    },
+    "changeDir": {
+      "start": 6,
+      "end": 6.052244897959183,
+      "loop": false
+    },
+    "lastPoint": {
+      "start": 8,
+      "end": 8.500249433106577,
+      "loop": false
+    },
+    "point": {
+      "start": 10,
+      "end": 10.084126984126984,
+      "loop": false
+    },
+    "shieldHit": {
+      "start": 12,
+      "end": 12.34204081632653,
+      "loop": false
+    }
+  }
+}
