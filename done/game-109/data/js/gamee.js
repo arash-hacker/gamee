@@ -343,6 +343,7 @@ var gamee = function(global) {
 	gamee.onStop    = noop;
 	gamee.onRestart = noop;
 	gamee.onMute    = noop;
+	gamee.onUnMute    = noop;
 
 	// *deprecated* for backward compatibility
 	gamee.onUnpause = noop;
@@ -383,7 +384,9 @@ var gamee = function(global) {
 				case 'mute':
 					gamee.onMute();
 					break;
-
+					case 'unmute':
+						gamee.onUnMute();
+						break;
 				default:
 					throw Error('Unknown message');
 			}
