@@ -124,9 +124,7 @@ function js_drawLoadingBar(_graphics, _width, _height, _total, _current, _loadin
     global._total=_total       
   
     gamee.total=global._total
-    gamee.current=global._current
-    console.log("newFilW",fillW)   
-    console.log("newPER",sec)  
+    gamee.current=global._current    
   
     if(sec ==1){
         setTimeout(() => {            

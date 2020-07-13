@@ -18,7 +18,7 @@
    <!-- onclick="Gamee2.Gamee._onStart.dispatch()" -->
     </head>
 
-    <body>
+    <body onload="motiv()">
            
               <div class="gm4html5_div_class container" id="gm4html5_div_id ">
                 <!-- Create the canvas element the game draws to -->
@@ -54,24 +54,43 @@
     
           
             
-        <script src="out.min.js"></script>
+        <script src="out.min.js" defer></script>
     </body>
     <script>
-     $('.container').mousedown(function(e1){
-    var mx = e1.pageX;//register the mouse down position
+      function startup() {
+  var el = document.getElementById("canvas");
+  el.addEventListener("touchstart", handleStart, false);
+  el.addEventListener("touchend", handleEnd, false);
+  el.addEventListener("touchcancel", handleCancel, false);
+  el.addEventListener("touchmove", handleMove, false);
+}
 
-    $(this).mousemove(function(e2){
+document.addEventListener("DOMContentLoaded", startup);
+    </script>
+    <script>
+      function motiv(){
 
-        if (e2.pageX > mx){ //right w.r.t mouse down position
-            console.log("Moved Right");
-        } else {
-            console.log("Moved Left")
-        }
-    });
-});     
-  $('.container').mouseup(function(){
-    $(this).unbind("mousemove");
-});
+        document.addEventListener('touchmove', function(e) {
+            e.preventDefault();
+            var touch = e.touches[0];
+            alert(touch.pageX + " - " + touch.pageY);
+        }, false);
+      }
+//      $('.container').mousedown(function(e1){
+//     var mx = e1.pageX;//register the mouse down position
+
+//     $(this).mousemove(function(e2){
+
+//         if (e2.pageX > mx){ //right w.r.t mouse down position
+//             console.log("Moved Right");
+//         } else {
+//             console.log("Moved Left")
+//         }
+//     });
+// });     
+//   $('.container').mouseup(function(){
+//     $(this).unbind("mousemove");
+// });
     </script>
     <script>
      

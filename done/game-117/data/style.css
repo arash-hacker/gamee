@@ -163,5 +163,9 @@ position: absolute;
       height: 100% !important;
   
   }
+  #circle canvas{
+    height: 100% !important;
+
+}
   }
   
