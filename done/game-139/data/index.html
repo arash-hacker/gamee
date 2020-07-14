@@ -81,7 +81,7 @@
              
               <div class="modal-body">
                  <p style="text-align: right;">برای شروع دوباره کلیک کنید</p>
-              <img data-dismiss="modal" style=" display: block; margin: 0 auto;" onclick=" gmCallback.gamee_onStart();gamee.updateScore(0)" src="./assets/play.svg" alt="">
+              <img data-dismiss="modal" style=" display: block; margin: 0 auto;" onclick=" gmCallback.gamee_onStart();gamee.updateScore(0);view()" src="./assets/play.svg" alt="">
               </div>
               
            
@@ -101,6 +101,12 @@
       gmCallback.gamee_onStart()
     }, 1000);
   
+  </script>
+  <script>
+    function view(){
+      tmp=0
+      $("#score").html(tmp)
+    }
   </script>
   <script>
     $('#toggle').click(function(){

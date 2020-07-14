@@ -72,7 +72,18 @@
 </div>
 
 <script type="text/javascript" src="app.js"></script>
-
+<script>
+	$('#toggle').click(function(){
+	  $(this).toggleClass('red green');
+	if  ($("#toggle").hasClass("red")) {
+	  console.log("pause")
+	  gamee.onResume()
+	} else if  ($("#toggle").hasClass("green")) {
+	  gamee.onPause()
+	  console.log("unpause")
+	}
+	})
+	</script>
 </body>
 
 </html>

@@ -60,6 +60,12 @@
     </div>
   </div>
   <script>
+    setTimeout(() => {
+      gamee.onStart()
+      console.log("==================>>>>>>>>>>>>")
+    }, 1000);
+  </script>
+  <script>
     $('#toggle').click(function(){
       $(this).toggleClass('red green');
     if  ($("#toggle").hasClass("red")) {

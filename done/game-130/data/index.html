@@ -46,11 +46,30 @@
                width: 100%;
                height: 100%;
             }
+            #res-controller {
+                display: block;
+                position: absolute;
+                width: 100%;
+                height: 90% !important;                
+                bottom: 0%;
+  }
+  .central-btn{
+    border: none;
+    position: absolute;
+    left: 0;
+     bottom: 0;
+      height: 100% !important;
+      width: 100%;
+      background: none;
+      outline: none!important ;
+      box-shadow: none!important ;
+  }
+
         </style>
     </head>
 
     <body>
-      <div style="background-color: aliceblue;display: flex;justify-content: space-between; color: black; ">
+      <!-- <div style="background-color: aliceblue;display: flex;justify-content: space-between; color: black; ">
         
         <img   id="toggle" class="red" id="tttt" src="./assets/puse.svg" alt="3dote"> 
         
@@ -61,13 +80,16 @@
             <img  onclick="gamee.onUnmute()" src="./assets/unmute.svg" alt="3dote">
            </div>
            
-          </div>
+          </div> -->
         <div class="gm4html5_div_class" id="gm4html5_div_id" style="position: absolute;">
             <!-- Create the canvas element the game draws to -->
             <canvas id="canvas" width="640" height="640" style="position: absolute; left: 0px; top: 0px; width: 160px; height: 160px;">
                <p>Your browser doesn't support HTML5 canvas.</p>
             </canvas>
         </div>
+        <div id="res-controller">
+          <button class="central-btn" onclick="gamee.controller.trigger('keydown', {button : 'button' });"><span></span></button>
+        </div> 
         <button id="success" type="button" style="display: none;" class="btn btn-primary" data-toggle="modal" data-target="#myModal"  data-backdrop="static" data-keyboard="false">
 
         </button>

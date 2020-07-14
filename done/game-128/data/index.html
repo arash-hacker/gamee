@@ -51,7 +51,7 @@
 
         <div class="modal-body">
           <p style="text-align: right;">برای شروع دوباره کلیک کنید</p>
-          <img data-dismiss="modal" style=" display: block; margin: 0 auto;" onclick="gamee.onRestart()"
+          <img data-dismiss="modal" style=" display: block; margin: 0 auto;" onclick="gamee.onRestart() ;view()"
             src="./assets/play.svg" alt="">
         </div>
 
@@ -71,6 +71,14 @@
         console.log("unpause")
       }
     })
+  </script>
+  <script>
+    function view(){
+      console.log("score=0")
+      var tmp=0
+      $("#score").html(tmp)
+    
+    }
   </script>
 </body>
 
