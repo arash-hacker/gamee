@@ -118,7 +118,7 @@ function js_drawLoadingBar(_graphics, _width, _height, _total, _current, _loadin
     
     // Vykreslit vypln   
     var fillW = Math.round((_current / _total) * barW);        
-    console.log("current",_current,"total",_total)
+    // console.log("current",_current,"total",_total)
     if (fillW !== 0)
     {
         _graphics.fillStyle = "#000000";

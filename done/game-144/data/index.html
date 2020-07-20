@@ -29,6 +29,16 @@
        
       </div>
     <div id="content"></div>
+    <div id="res-controller">
+
+      <button class="left-btn"  onclick="gamee.controller.trigger('keydown', {button : 'left' });"
+     > <span>left</span>
+      </button>
+      <button class="right-btn"
+            onclick="gamee.controller.trigger('keydown', {button : 'right' });"
+            >
+            <span>right</span></button>
+    </div>
     <button id="success" type="button" style="display: none;" class="btn btn-primary" data-toggle="modal" data-target="#myModal"  data-backdrop="static" data-keyboard="false">
 
     </button>

@@ -94,15 +94,7 @@
     <script type="text/javascript" src="html5game/tph_js_extension.js"  ></script>
     <script type="text/javascript" src="html5game/KarateKido.js" ></script>
 
-<script>
 
-        setTimeout(() => {
-                    gameeState=1
-                    gmCallback["gamee_onStart"]();
-              
-                
-                }, 1000);
-</script>
 
         <script>
             $('#toggle').click(function(){
@@ -131,14 +123,15 @@
             </script>
        
     <script>
-          $("#newgame").click(function(){
+          // $("#newgame").click(function(){
                 setTimeout(() => {
                     gameeState=1
                     gmCallback["gamee_onStart"]();
+                    console.log("gamee_onStart")
               
                 
                 }, 1000);
-            })
+            // })
            
         setInterval(() => {
             var score=_f7._79

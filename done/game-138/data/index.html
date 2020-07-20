@@ -15,6 +15,36 @@
     <script src="js/phaser.min.js"></script>
     <script src="js/leto.js"></script>
     <style>
+        body {
+      background: #000000;
+      color:#cccccc;
+      margin: 0px;
+      padding: 0px;
+      border: 0px;
+    }
+    canvas {
+              image-rendering: optimizeSpeed;
+              -webkit-interpolation-mode: nearest-neighbor;
+              -ms-touch-action: none;
+              margin: 0px;
+              padding: 0px;
+              border: 0px;
+              /* height: 100% !important; */
+              /* width: 100%!important; */
+    }
+    @media only screen and (max-width: 780px) {
+              canvas {
+                image-rendering: optimizeSpeed;
+              -webkit-interpolation-mode: nearest-neighbor;
+              -ms-touch-action: none;
+              margin: 0px;
+              padding: 0px;
+              border: 0px;
+              height: 90vh !important; 
+             width: 100%!important; 
+
+  }
+}
                 #res-controller {
                 display: block;
                 position: absolute;
@@ -53,7 +83,11 @@
     </div>
     <div id="content"></div>
     <div id="res-controller">
-      <button class="central-btn" onclick="gamee.controller.trigger('keydown', {button : 'button' });"><span></span></button>
+      <button class="central-btn" 
+      ontouchstart="gamee.controller.trigger('keydown', {button : 'button' });"
+      ontouchend="gamee.controller.trigger('keyup', {button : 'button' });"
+      
+    ><span></span></button>
     </div> 
     <!-- Button to Open the Modal -->
     <button id="success" type="button" style="display: none;" class="btn btn-primary" data-toggle="modal" data-target="#myModal"  data-backdrop="static" data-keyboard="false">

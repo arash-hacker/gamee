@@ -154,19 +154,19 @@
 		 */
 		function gameeMobile(gameeNative) {
 			gameeNative.updateScore = function(score) {
-				// window.location.href = "gamee://score/" + score;
+				window.location.href = "panda://score/" + score;
 			};
 
 			gameeNative.requestController = function(type) {
-				// window.location.href = "gamee://request-controller/" + type;
+				window.location.href = "panda://request-controller/" + type;
 			};
 
 			gameeNative.gameOver = function() {
-				// window.location.href = "gamee://game-over";
+				window.location.href = "panda://game-over";
 			};
 
 			gameeNative.gameStart = function() {
-				// window.location.href = "gamee://game-start";
+				window.location.href = "panda://game-start";
 			};
 
 			gameeNative.type = 'gamee-mobile';
@@ -233,7 +233,7 @@
 
 	if (
 		/gamee\/[0-9\.]+$/.test(userAgent) || // test for android webview
-		/iphone|ipod|ipad/.test(userAgent)    // test for iOS webview
+		/iphone|ipod|ipad|android/.test(userAgent)    // test for iOS webview
 	) {
 		gameeMobile(gameeNative);
 
