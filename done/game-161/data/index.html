@@ -36,8 +36,40 @@
                       margin: 0px;
                       padding: 0px;
                       border: 0px;
-                      height: 580px!important;
+                      /* height: 580px!important; */
             }
+            @media only screen and (max-width: 780px) {
+              canvas {
+                image-rendering: optimizeSpeed;
+              -webkit-interpolation-mode: nearest-neighbor;
+              -ms-touch-action: none;
+              margin: 0px;
+              padding: 0px;
+              border: 0px;
+              width: auto;
+              /* height: 100%!important; */
+             
+
+  }
+}
+#res-controller {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 90% !important;                
+        bottom: 0%;
+}
+.central-btn{
+border: none;
+position: absolute;
+left: 0;
+bottom: 0;
+height: 100% !important;
+width: 100%;
+background: none;
+outline: none!important ;
+box-shadow: none!important ;
+}
             :-webkit-full-screen #canvas {
                  width: 100%;
                  height: 100%;

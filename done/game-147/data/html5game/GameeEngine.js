@@ -3457,6 +3457,8 @@ function _g4(_M6, _N6) {
       {
         gamee_gameOver();
         _H8(_M6);
+        console.log("gameover")
+        $("#success").trigger("click");
         return;
       }
     }
@@ -4376,6 +4378,8 @@ function _05(_M6, _N6) {
       {
         gamee_gameOver();
         _M6._l7 = 0 ? 1 : 0;
+        console.log("gameover2")
+
       }
     }
   }

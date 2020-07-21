@@ -20,10 +20,72 @@
     <script src="gamee-js/gamee.all.min.js"></script>
   <script src="phaser/phaser.2.6.1.min.js"></script>
   <style>
-    canvas{
-      height: 580px !important;
+    
+    body {
+      background: #000000;
+      color:#cccccc;
+      margin: 0px;
+      padding: 0px;
+      border: 0px;
     }
-  </style>
+    canvas {
+              image-rendering: optimizeSpeed;
+              -webkit-interpolation-mode: nearest-neighbor;
+              -ms-touch-action: none;
+              margin: 0px;
+              padding: 0px;
+              border: 0px;
+              /* height: 100% !important; */
+              /* width: 100%!important; */
+    }
+    @media only screen and (max-width: 780px) {
+              canvas {
+                image-rendering: optimizeSpeed;
+              -webkit-interpolation-mode: nearest-neighbor;
+              -ms-touch-action: none;
+              margin: 0px;
+              padding: 0px;
+              border: 0px;
+              height: 90vh !important; 
+             width: 100%!important; 
+
+  }
+}
+    :-webkit-full-screen #canvas {
+         width: 100%;
+         height: 100%;
+    }
+    div.gm4html5_div_class
+    {
+      margin: 0px;
+      padding: 0px;
+      border: 0px;
+    }
+    :-webkit-full-screen {
+       width: 100%;
+       height: 100%;
+    }
+    #res-controller {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 90% !important;                
+        bottom: 0%;
+}
+.central-btn{
+border: none;
+position: absolute;
+left: 0;
+bottom: 0;
+height: 100% !important;
+width: 100%;
+background: none;
+outline: none!important ;
+box-shadow: none!important ;
+}
+
+</style>
+ 
 </head>
 
 <body>
@@ -40,7 +102,13 @@
        
 </div>
 	<div id="Nokian" style="position: absolute; top: 7%!important; left: 0; bottom: 0; right: 0;height: 580px!important;"></div>
-	
+  <div id="res-controller">
+    <button class="central-btn" 
+    ontouchstart="gamee.controller.trigger('keydown', {button : 'button' });"
+    ontouchend="gamee.controller.trigger('keyup', {button : 'button' });"
+ ><span></span>
+  </button>
+  </div> 
   <button id="success" type="button" style="display: none;" class="btn btn-primary" data-toggle="modal" data-target="#myModal"  data-backdrop="static" data-keyboard="false">
 
   </button>
@@ -62,6 +130,7 @@
   <script>
     setTimeout(() => {
       gamee.onStart()
+      gamee.onRestart()
       console.log("==================>>>>>>>>>>>>")
     }, 1000);
   </script>
