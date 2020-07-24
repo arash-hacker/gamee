@@ -188,6 +188,8 @@ function gamee_gameStart()
 
 function gamee_setScore(score)
 {
+    console.log(score)
+    window.location.href="gamee://gamee-score/"+score;
     if (typeof gamee !== "undefined")
         gamee.score = score;
 }
@@ -195,6 +197,7 @@ function gamee_setScore(score)
 
 function gamee_gameOver()
 {
+    alert()
     if (typeof gamee !== "undefined")
         gamee.gameOver();
 }
