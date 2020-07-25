@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70.221" height="70.221" viewBox="0 0 70.221 70.221">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0066b3"/>
+      <stop offset="1" stop-color="#008af2"/>
+    </linearGradient>
+  </defs>
+  <g id="play-button_2_" data-name="play-button (2)" transform="translate(-0.004)">
+    <g id="Ellipse_2271" data-name="Ellipse 2271" transform="translate(15.25 14.24)" fill="#fff" stroke="#707070" stroke-width="1">
+      <circle cx="20.5" cy="20.5" r="20.5" stroke="none"/>
+      <circle cx="20.5" cy="20.5" r="20" fill="none"/>
+    </g>
+    <g id="Group_3534" data-name="Group 3534" transform="translate(0.004)">
+      <path id="Path_10604" data-name="Path 10604" d="M35.114,0a35.11,35.11,0,1,0,35.11,35.11A35.109,35.109,0,0,0,35.114,0ZM48.926,38.156,29.5,51.562c-2.425,1.675-4.421.614-4.421-2.359V21.017c0-2.972,2-4.033,4.421-2.358L48.92,32.064C51.344,33.739,51.349,36.481,48.926,38.156Z" transform="translate(-0.004)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,104 @@
+{
+	"textures": [
+		{
+			"image": "obstacles.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1270,
+				"h": 386
+			},
+			"scale": 0.75,
+			"frames": [
+				{
+					"filename": "rock",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 384,
+						"h": 384
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 8,
+						"w": 366,
+						"h": 370
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 366,
+						"h": 370
+					}
+				},
+				{
+					"filename": "tree",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 384,
+						"h": 384
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 371,
+						"h": 384
+					},
+					"frame": {
+						"x": 369,
+						"y": 1,
+						"w": 371,
+						"h": 384
+					}
+				},
+				{
+					"filename": "treeBottom",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 384,
+						"h": 384
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 384,
+						"h": 384
+					},
+					"frame": {
+						"x": 742,
+						"y": 1,
+						"w": 384,
+						"h": 384
+					}
+				},
+				{
+					"filename": "treeTop",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 384,
+						"h": 384
+					},
+					"spriteSourceSize": {
+						"x": 110,
+						"y": 119,
+						"w": 141,
+						"h": 145
+					},
+					"frame": {
+						"x": 1128,
+						"y": 1,
+						"w": 141,
+						"h": 145
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:491ae6bce748137ffee15092989448bd:59f0c82b443449e8afe4af01b4a16e44:641f848f5767e234ed2c8b58348ca01d$"
+	}
+}

@@ -1,0 +1,351 @@
+{
+    "skeleton": {
+        "hash": "izAZDvJkYorS58UcXtRP7DmnwQ4", "spine": "3.6.53", "width": 247, "height": 245, "images": "./images/"
+    }
+    ,
+    "bones":[ {
+        "name": "root"
+    }
+    ],
+    "slots":[ {
+        "name": "shield_1", "bone": "root", "attachment": "shield_1"
+    }
+    ,
+    {
+        "name": "shield_down_1", "bone": "root", "attachment": "shield_down_8"
+    }
+    ],
+    "skins": {
+        "default": {
+            "shield_1": {
+                "shield_1": {
+                    "width": 247, "height": 245
+                }
+                ,
+                "shield_2": {
+                    "width": 247, "height": 244
+                }
+                ,
+                "shield_3": {
+                    "width": 247, "height": 245
+                }
+                ,
+                "shield_4": {
+                    "width": 247, "height": 245
+                }
+                ,
+                "shield_5": {
+                    "width": 247, "height": 245
+                }
+                ,
+                "shield_6": {
+                    "width": 247, "height": 245
+                }
+            }
+            ,
+            "shield_down_1": {
+                "shield_down_1": {
+                    "width": 247, "height": 245
+                }
+                ,
+                "shield_down_2": {
+                    "x": -0.63, "width": 246, "height": 244
+                }
+                ,
+                "shield_down_3": {
+                    "x": -3.76, "y": 3.76, "rotation": -0.62, "width": 245, "height": 245
+                }
+                ,
+                "shield_down_4": {
+                    "x": -12.54, "y": 11.29, "width": 246, "height": 245
+                }
+                ,
+                "shield_down_5": {
+                    "x": -14.42, "y": 18.18, "width": 246, "height": 245
+                }
+                ,
+                "shield_down_6": {
+                    "x": -10.66, "y": 21.32, "width": 247, "height": 245
+                }
+                ,
+                "shield_down_7": {
+                    "x": -13.79, "y": 25.71, "width": 245, "height": 244
+                }
+                ,
+                "shield_down_8": {
+                    "x": -9.4, "y": 40.13, "width": 46, "height": 25
+                }
+            }
+        }
+    }
+    ,
+    "animations": {
+        "in": {
+            "slots": {
+                "shield_1": {
+                    "attachment":[ {
+                        "time": 0, "name": "shield_1"
+                    }
+                    ]
+                }
+                ,
+                "shield_down_1": {
+                    "attachment":[ {
+                        "time": 0, "name": null
+                    }
+                    ]
+                }
+            }
+            ,
+            "bones": {
+                "root": {
+                    "rotate":[ {
+                        "time": 0.1667, "angle": 0
+                    }
+                    ],
+                    "translate":[ {
+                        "time": 0.1, "x": 0, "y": 0
+                    }
+                    ,
+                    {
+                        "time": 0.1667, "x": 0, "y": 46.2
+                    }
+                    ,
+                    {
+                        "time": 0.2333, "x": 0, "y": 0
+                    }
+                    ],
+                    "scale":[ {
+                        "time": 0, "x": 0, "y": 0
+                    }
+                    ,
+                    {
+                        "time": 0.1, "x": 1, "y": 1
+                    }
+                    ,
+                    {
+                        "time": 0.1667, "x": 0.675, "y": 1.091
+                    }
+                    ,
+                    {
+                        "time": 0.2333, "x": 1.217, "y": 0.829
+                    }
+                    ,
+                    {
+                        "time": 0.2667, "x": 1, "y": 1
+                    }
+                    ]
+                }
+            }
+        }
+        ,
+        "rotate": {
+            "slots": {
+                "shield_1": {
+                    "attachment":[ {
+                        "time": 0, "name": "shield_1"
+                    }
+                    ,
+                    {
+                        "time": 0.1, "name": "shield_2"
+                    }
+                    ,
+                    {
+                        "time": 0.2, "name": "shield_3"
+                    }
+                    ,
+                    {
+                        "time": 0.3, "name": "shield_4"
+                    }
+                    ,
+                    {
+                        "time": 0.4, "name": "shield_5"
+                    }
+                    ,
+                    {
+                        "time": 0.5, "name": "shield_6"
+                    }
+                    ]
+                }
+                ,
+                "shield_down_1": {
+                    "attachment":[ {
+                        "time": 0, "name": null
+                    }
+                    ]
+                }
+            }
+            ,
+            "bones": {
+                "root": {
+                    "scale":[ {
+                        "time": 0, "x": 1, "y": 1
+                    }
+                    ,
+                    {
+                        "time": 0.1333, "x": 0.99, "y": 1.031
+                    }
+                    ,
+                    {
+                        "time": 0.3, "x": 1.038, "y": 0.959
+                    }
+                    ,
+                    {
+                        "time": 0.5, "x": 1, "y": 1
+                    }
+                    ]
+                }
+            }
+        }
+        ,
+         "shield_up": {
+            "slots": {
+                "shield_1": {
+                    "attachment":[ {
+                        "time": 0, "name": null
+                    }
+                    ]
+                }
+                ,
+                "shield_down_1": {
+                    "attachment":[ {
+                        "time": 0, "name": "null"
+                    }
+                    ,
+                    {
+                        "time": 0.0333, "name": "shield_down_8"
+                    }
+                    ,
+                    {
+                        "time": 0.0667, "name": "shield_down_7"
+                    }
+                    ,
+                    {
+                        "time": 0.1, "name": "shield_down_6"
+                    }
+                    ,
+                    {
+                        "time": 0.1333, "name": "shield_down_5"
+                    }
+                    ,
+                    {
+                        "time": 0.1667, "name": "shield_down_4"
+                    }
+                    ,
+                    {
+                        "time": 0.2, "name": "shield_down_3"
+                    }
+                    ,
+                    {
+                        "time": 0.2333, "name": "shield_down_2"
+                    }
+                    ,
+                    {
+                        "time": 0.2667, "name": "shield_down_1"
+                    }
+                    ]
+                }
+            }
+            ,
+            "bones": {
+                "root": {
+                    "scale":[ {
+                        "time": 0, "x": 0.9, "y": 0.827
+                    }
+                    ,
+                    {
+                        "time": 0.0333, "x": 0.966, "y": 1.085
+                    }
+                    ,
+                    {
+                        "time": 0.0667, "x": 1.026, "y": 0.921
+                    }
+                    ,
+                    {
+                        "time": 0.1333, "x": 0.958, "y": 1.056
+                    }
+                    ,
+                    {
+                        "time": 0.2333, "x": 1, "y": 1
+                    }
+                    ]
+                }
+            }
+        },
+        
+        "shield_down": {
+            "slots": {
+                "shield_1": {
+                    "attachment":[ {
+                        "time": 0, "name": null
+                    }
+                    ]
+                }
+                ,
+                "shield_down_1": {
+                    "attachment":[ {
+                        "time": 0, "name": "shield_down_1"
+                    }
+                    ,
+                    {
+                        "time": 0.0333, "name": "shield_down_2"
+                    }
+                    ,
+                    {
+                        "time": 0.0667, "name": "shield_down_3"
+                    }
+                    ,
+                    {
+                        "time": 0.1, "name": "shield_down_4"
+                    }
+                    ,
+                    {
+                        "time": 0.1333, "name": "shield_down_5"
+                    }
+                    ,
+                    {
+                        "time": 0.1667, "name": "shield_down_6"
+                    }
+                    ,
+                    {
+                        "time": 0.2, "name": "shield_down_7"
+                    }
+                    ,
+                    {
+                        "time": 0.2333, "name": "shield_down_8"
+                    }
+                    ,
+                    {
+                        "time": 0.2667, "name": null
+                    }
+                    ]
+                }
+            }
+            ,
+            "bones": {
+                "root": {
+                    "scale":[ {
+                        "time": 0, "x": 1, "y": 1
+                    }
+                    ,
+                    {
+                        "time": 0.0333, "x": 0.958, "y": 1.056
+                    }
+                    ,
+                    {
+                        "time": 0.0667, "x": 1.026, "y": 0.921
+                    }
+                    ,
+                    {
+                        "time": 0.1333, "x": 0.966, "y": 1.085
+                    }
+                    ,
+                    {
+                        "time": 0.2333, "x": 0.9, "y": 0.827
+                    }
+                    ]
+                }
+            }
+        }
+    }
+}

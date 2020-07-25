@@ -1,0 +1,62 @@
+/* -----------------------------------------------------
+   created with https://www.codeandweb.com/texturepacker
+   -----------------------------------------------------
+   $TexturePacker:SmartUpdate:0c20c628a42f880e14007b27f41982e9:778c334f9847d56d0dafd5ba399ef7f3:d79457aaf8783e0db88d136f0ce876a0$
+   -----------------------------------------------------
+
+   usage: <span class="{-spritename-} sprite"></span>
+
+   replace {-spritename-} with the sprite you like to use
+
+*/
+
+.character {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(../ui/characters_css.png);}
+
+.characters-female1-fist {width:64px; height:64px; background-position: -1217px -403px}
+.characters-female1-fist_effect {width:84px; height:132px; background-position: -1217px -1px}
+.characters-female1-head {width:150px; height:150px; background-position: -1px -1px}
+.characters-female1-idle {width:150px; height:150px; background-position: -1px -153px}
+.characters-female2-fist {width:64px; height:64px; background-position: -1283px -403px}
+.characters-female2-fist_effect {width:84px; height:132px; background-position: -1217px -135px}
+.characters-female2-head {width:150px; height:150px; background-position: -1px -305px}
+.characters-female2-idle {width:150px; height:150px; background-position: -153px -1px}
+.characters-female3-fist {width:64px; height:64px; background-position: -1349px -403px}
+.characters-female3-fist_effect {width:84px; height:132px; background-position: -1217px -269px}
+.characters-female3-head {width:150px; height:150px; background-position: -153px -153px}
+.characters-female3-idle {width:150px; height:150px; background-position: -153px -305px}
+.characters-female4-fist {width:64px; height:64px; background-position: -1415px -403px}
+.characters-female4-fist_effect {width:84px; height:132px; background-position: -1303px -1px}
+.characters-female4-head {width:150px; height:150px; background-position: -305px -1px}
+.characters-female4-idle {width:150px; height:150px; background-position: -305px -153px}
+.characters-female5-fist {width:64px; height:64px; background-position: -1481px -403px}
+.characters-female5-fist_effect {width:84px; height:132px; background-position: -1303px -135px}
+.characters-female5-head {width:150px; height:150px; background-position: -305px -305px}
+.characters-female5-idle {width:150px; height:150px; background-position: -457px -1px}
+.characters-female6-fist {width:64px; height:64px; background-position: -1547px -403px}
+.characters-female6-fist_effect {width:84px; height:132px; background-position: -1303px -269px}
+.characters-female6-head {width:150px; height:150px; background-position: -457px -153px}
+.characters-female6-idle {width:150px; height:150px; background-position: -457px -305px}
+.characters-male1-fist {width:64px; height:64px; background-position: -1561px -1px}
+.characters-male1-fist_effect {width:84px; height:132px; background-position: -1389px -1px}
+.characters-male1-head {width:150px; height:150px; background-position: -609px -1px}
+.characters-male1-idle {width:150px; height:150px; background-position: -609px -153px}
+.characters-male2-fist {width:64px; height:64px; background-position: -1561px -67px}
+.characters-male2-fist_effect {width:84px; height:132px; background-position: -1389px -135px}
+.characters-male2-head {width:150px; height:150px; background-position: -609px -305px}
+.characters-male2-idle {width:150px; height:150px; background-position: -761px -1px}
+.characters-male3-fist {width:64px; height:64px; background-position: -1561px -133px}
+.characters-male3-fist_effect {width:84px; height:132px; background-position: -1389px -269px}
+.characters-male3-head {width:150px; height:150px; background-position: -761px -153px}
+.characters-male3-idle {width:150px; height:150px; background-position: -761px -305px}
+.characters-male4-fist {width:64px; height:64px; background-position: -1561px -199px}
+.characters-male4-fist_effect {width:84px; height:132px; background-position: -1475px -1px}
+.characters-male4-head {width:150px; height:150px; background-position: -913px -1px}
+.characters-male4-idle {width:150px; height:150px; background-position: -913px -153px}
+.characters-male5-fist {width:64px; height:64px; background-position: -1561px -265px}
+.characters-male5-fist_effect {width:84px; height:132px; background-position: -1475px -135px}
+.characters-male5-head {width:150px; height:150px; background-position: -913px -305px}
+.characters-male5-idle {width:150px; height:150px; background-position: -1065px -1px}
+.characters-male6-fist {width:64px; height:64px; background-position: -1561px -331px}
+.characters-male6-fist_effect {width:84px; height:132px; background-position: -1475px -269px}
+.characters-male6-head {width:150px; height:150px; background-position: -1065px -153px}
+.characters-male6-idle {width:150px; height:150px; background-position: -1065px -305px}

@@ -1,0 +1,18 @@
+/* -----------------------------------------------------
+   created with https://www.codeandweb.com/texturepacker
+   -----------------------------------------------------
+   $TexturePacker:SmartUpdate:4d3362c022f5fdacb223b3c1fa5750cd:59f0c82b443449e8afe4af01b4a16e44:60be54db0d9c67a050699061b0f6f109$
+   -----------------------------------------------------
+
+   usage: <span class="{-spritename-} sprite"></span>
+
+   replace {-spritename-} with the sprite you like to use
+
+*/
+
+.obstacle {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(../ui/obstacles.png);}
+
+.rock {width:384px; height:384px; background-position: -0px -0px}
+.tree {width:384px; height:384px; background-position: -384px -0px}
+.treeBottom {width:384px; height:384px; background-position: -768px -0px}
+.treeTop {width:384px; height:384px; background-position: -1152px -0px}

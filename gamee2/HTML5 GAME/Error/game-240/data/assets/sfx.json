@@ -1,0 +1,38 @@
+{
+  "resources": [
+    "sfx.ogg",
+    "sfx.mp3"
+  ],
+  "spritemap": {
+    "levelComplete": {
+      "start": 0,
+      "end": 1.7508843537414966,
+      "loop": false
+    },
+    "menuClick": {
+      "start": 3,
+      "end": 3.2355555555555555,
+      "loop": false
+    },
+    "star": {
+      "start": 5,
+      "end": 6.154943310657597,
+      "loop": false
+    },
+    "tileClick": {
+      "start": 8,
+      "end": 8.090408163265305,
+      "loop": false
+    },
+    "tileClickFail": {
+      "start": 10,
+      "end": 10.193990929705215,
+      "loop": false
+    },
+    "unlock": {
+      "start": 12,
+      "end": 12.880136054421769,
+      "loop": false
+    }
+  }
+}

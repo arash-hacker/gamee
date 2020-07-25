@@ -1,0 +1,391 @@
+
+skeleton.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+19th_century/19th_century_body
+  rotate: false
+  xy: 1696, 385
+  size: 150, 125
+  orig: 150, 125
+  offset: 0, 0
+  index: -1
+19th_century/19th_century_hand_left
+  rotate: true
+  xy: 918, 209
+  size: 137, 96
+  orig: 137, 96
+  offset: 0, 0
+  index: -1
+19th_century/19th_century_hand_left_2
+  rotate: false
+  xy: 1548, 330
+  size: 95, 86
+  orig: 95, 86
+  offset: 0, 0
+  index: -1
+19th_century/19th_century_hand_right
+  rotate: false
+  xy: 527, 14
+  size: 107, 63
+  orig: 107, 63
+  offset: 0, 0
+  index: -1
+19th_century/19th_century_hat
+  rotate: true
+  xy: 340, 156
+  size: 85, 64
+  orig: 85, 64
+  offset: 0, 0
+  index: -1
+19th_century/19th_century_head
+  rotate: false
+  xy: 361, 367
+  size: 217, 143
+  orig: 217, 143
+  offset: 0, 0
+  index: -1
+19th_century/19th_century_leg_left
+  rotate: false
+  xy: 1234, 141
+  size: 57, 79
+  orig: 57, 79
+  offset: 0, 0
+  index: -1
+19th_century/19th_century_leg_right
+  rotate: false
+  xy: 860, 123
+  size: 64, 58
+  orig: 64, 58
+  offset: 0, 0
+  index: -1
+19th_century/19th_century_tool
+  rotate: true
+  xy: 658, 228
+  size: 132, 122
+  orig: 132, 122
+  offset: 0, 0
+  index: -1
+19th_century/19th_century_tool_2
+  rotate: false
+  xy: 2, 291
+  size: 153, 219
+  orig: 153, 219
+  offset: 0, 0
+  index: -1
+egypt/egypt_body
+  rotate: true
+  xy: 157, 2
+  size: 152, 138
+  orig: 152, 138
+  offset: 0, 0
+  index: -1
+egypt/egypt_hand_left
+  rotate: true
+  xy: 430, 17
+  size: 137, 95
+  orig: 137, 95
+  offset: 0, 0
+  index: -1
+egypt/egypt_hand_right
+  rotate: false
+  xy: 1548, 266
+  size: 106, 62
+  orig: 106, 62
+  offset: 0, 0
+  index: -1
+egypt/egypt_hat
+  rotate: true
+  xy: 406, 156
+  size: 85, 64
+  orig: 85, 64
+  offset: 0, 0
+  index: -1
+future/future_hat
+  rotate: true
+  xy: 406, 156
+  size: 85, 64
+  orig: 85, 64
+  offset: 0, 0
+  index: -1
+prehistoric/prehistoric_hat
+  rotate: true
+  xy: 406, 156
+  size: 85, 64
+  orig: 85, 64
+  offset: 0, 0
+  index: -1
+egypt/egypt_head
+  rotate: false
+  xy: 157, 156
+  size: 181, 182
+  orig: 181, 182
+  offset: 0, 0
+  index: -1
+egypt/egypt_leg_left
+  rotate: false
+  xy: 1999, 433
+  size: 36, 77
+  orig: 36, 77
+  offset: 0, 0
+  index: -1
+egypt/egypt_leg_right
+  rotate: true
+  xy: 860, 183
+  size: 36, 56
+  orig: 36, 56
+  offset: 0, 0
+  index: -1
+egypt/egypt_tool
+  rotate: false
+  xy: 782, 221
+  size: 134, 125
+  orig: 134, 125
+  offset: 0, 0
+  index: -1
+future/future_body
+  rotate: true
+  xy: 979, 352
+  size: 158, 179
+  orig: 158, 179
+  offset: 0, 0
+  index: -1
+future/future_hand_left
+  rotate: false
+  xy: 721, 27
+  size: 136, 95
+  orig: 136, 95
+  offset: 0, 0
+  index: -1
+future/future_hand_right
+  rotate: false
+  xy: 2, 3
+  size: 107, 65
+  orig: 107, 65
+  offset: 0, 0
+  index: -1
+future/future_head
+  rotate: false
+  xy: 1848, 370
+  size: 149, 140
+  orig: 149, 140
+  offset: 0, 0
+  index: -1
+future/future_leg_left
+  rotate: true
+  xy: 636, 12
+  size: 65, 78
+  orig: 65, 78
+  offset: 0, 0
+  index: -1
+future/future_leg_right
+  rotate: true
+  xy: 918, 50
+  size: 71, 59
+  orig: 71, 59
+  offset: 0, 0
+  index: -1
+future/future_tool
+  rotate: false
+  xy: 511, 218
+  size: 145, 142
+  orig: 145, 142
+  offset: 0, 0
+  index: -1
+medieval/medieval_body
+  rotate: false
+  xy: 580, 362
+  size: 200, 148
+  orig: 200, 148
+  offset: 0, 0
+  index: -1
+medieval/medieval_hand_left
+  rotate: true
+  xy: 527, 79
+  size: 137, 95
+  orig: 137, 95
+  offset: 0, 0
+  index: -1
+medieval/medieval_hand_right
+  rotate: true
+  xy: 1483, 289
+  size: 107, 63
+  orig: 107, 63
+  offset: 0, 0
+  index: -1
+medieval/medieval_hat
+  rotate: false
+  xy: 1331, 398
+  size: 178, 112
+  orig: 178, 112
+  offset: 0, 0
+  index: -1
+medieval/medieval_head
+  rotate: false
+  xy: 782, 348
+  size: 195, 162
+  orig: 195, 162
+  offset: 0, 0
+  index: -1
+medieval/medieval_leg_left
+  rotate: false
+  xy: 859, 42
+  size: 57, 79
+  orig: 57, 79
+  offset: 0, 0
+  index: -1
+medieval/medieval_leg_right
+  rotate: false
+  xy: 1543, 207
+  size: 64, 57
+  orig: 64, 57
+  offset: 0, 0
+  index: -1
+medieval/medieval_tool
+  rotate: false
+  xy: 1016, 227
+  size: 133, 123
+  orig: 133, 123
+  offset: 0, 0
+  index: -1
+prehistoric/prehistoric_body
+  rotate: true
+  xy: 297, 6
+  size: 148, 131
+  orig: 148, 131
+  offset: 0, 0
+  index: -1
+prehistoric/prehistoric_hand_left
+  rotate: true
+  xy: 624, 79
+  size: 137, 95
+  orig: 137, 95
+  offset: 0, 0
+  index: -1
+prehistoric/prehistoric_hand_right
+  rotate: false
+  xy: 1016, 166
+  size: 107, 59
+  orig: 107, 59
+  offset: 0, 0
+  index: -1
+prehistoric/prehistoric_head
+  rotate: false
+  xy: 157, 340
+  size: 202, 170
+  orig: 202, 170
+  offset: 0, 0
+  index: -1
+prehistoric/prehistoric_leg_left
+  rotate: false
+  xy: 1285, 267
+  size: 36, 77
+  orig: 36, 77
+  offset: 0, 0
+  index: -1
+prehistoric/prehistoric_leg_right
+  rotate: false
+  xy: 472, 185
+  size: 36, 56
+  orig: 36, 56
+  offset: 0, 0
+  index: -1
+prehistoric/prehistoric_tool
+  rotate: false
+  xy: 361, 243
+  size: 148, 122
+  orig: 148, 122
+  offset: 0, 0
+  index: -1
+present/present_body
+  rotate: false
+  xy: 1331, 272
+  size: 150, 124
+  orig: 150, 124
+  offset: 0, 0
+  index: -1
+present/present_hand_left
+  rotate: false
+  xy: 721, 124
+  size: 137, 95
+  orig: 137, 95
+  offset: 0, 0
+  index: -1
+present/present_hand_right
+  rotate: false
+  xy: 1125, 157
+  size: 107, 63
+  orig: 107, 63
+  offset: 0, 0
+  index: -1
+present/present_hat
+  rotate: false
+  xy: 1511, 418
+  size: 183, 92
+  orig: 183, 92
+  offset: 0, 0
+  index: -1
+present/present_head
+  rotate: false
+  xy: 1160, 346
+  size: 169, 164
+  orig: 169, 164
+  offset: 0, 0
+  index: -1
+present/present_leg_left
+  rotate: false
+  xy: 926, 128
+  size: 57, 79
+  orig: 57, 79
+  offset: 0, 0
+  index: -1
+present/present_leg_right
+  rotate: true
+  xy: 1483, 223
+  size: 64, 58
+  orig: 64, 58
+  offset: 0, 0
+  index: -1
+present/present_tool
+  rotate: false
+  xy: 1151, 222
+  size: 132, 122
+  orig: 132, 122
+  offset: 0, 0
+  index: -1
+present/present_tool_2
+  rotate: false
+  xy: 2, 70
+  size: 153, 219
+  orig: 153, 219
+  offset: 0, 0
+  index: -1
+egypt/egypt_tool_2
+  rotate: false
+  xy: 2, 70
+  size: 153, 219
+  orig: 153, 219
+  offset: 0, 0
+  index: -1
+future/future_tool_2
+  rotate: false
+  xy: 2, 70
+  size: 153, 219
+  orig: 153, 219
+  offset: 0, 0
+  index: -1
+medieval/medieval_tool_2
+  rotate: false
+  xy: 2, 70
+  size: 153, 219
+  orig: 153, 219
+  offset: 0, 0
+  index: -1
+prehistoric/prehistoric_tool_2
+  rotate: false
+  xy: 2, 70
+  size: 153, 219
+  orig: 153, 219
+  offset: 0, 0
+  index: -1

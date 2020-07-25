@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset=UTF-8>
+    <title>Paint.IO | GAMEE</title>
+    <meta name=viewport content="width=320,initial-scale=1,user-scalable=no">
+    <meta name=HandheldFriendly content=True>
+    <link rel=stylesheet href=assets/css/style.css> <link rel=stylesheet href=assets/css/characters_128.css> <link
+        rel=stylesheet href=assets/css/paths_128.css> <link rel=stylesheet type=text/css
+        href=assets/css/slick/slick.css> <link rel=stylesheet type=text/css href=assets/css/slick/slick-theme.css>
+        </head> <body>
+    <div id=debug><button type=button id=pause>Pause</button> <button type=button id=resume>Resume</button> <button
+            type=button id=erasePlayerArea>Erase player area</button> <button type=button id=zoomOut>Zoom out</button>
+        <button type=button id=zoomToPlayer>Zoom to player</button> <button type=button id=conquerHalfMap>Conquer half
+            map</button> <button type=button id=killAllBots>Kill all bots</button> <button type=button
+            id=killRandomBot>Kill random bot</button> <button type=button id=killPlayer>Kill player</button> <button
+            type=button id=resetSaveState>Reset save state</button> <button type=button id=addScore>Add score</button>
+    </div>
+    <div id=multiplier class=hide></div>
+    <div id=content style=display:block;width:100%;text-align:center></div>
+    <div id=achievementContainer class=hide>
+        <div class=character>
+            <div class="sprite mouth" id=achievement-character></div>
+        </div>
+        <div class=center-text>
+            <div class=first-row>Achievement</div>
+            <div id=achievementTitle>Kill the king !</div>
+            <div class=third-row>New character unlocked</div>
+        </div>
+        <div class=cross-wrapper id=closeAchievement>
+            <div class=cross></div>
+        </div>
+    </div>
+    <div class="killCamBorder hide">
+        <div class=text id=kill-text></div>
+    </div>
+    <div class="ui-background-overlay hide"></div>
+    <div class="tap-to-play hide">Tap to play</div>
+    <div id=rewarded-video-container class=hide>
+        <div class=container>
+            <div class=header>Watch video for extra life</div>
+            <div class=watch-container>
+                <div class="watch showExtraLife"></div>
+            </div>
+            <div class=no-thanks>No, thanks!</div>
+        </div>
+    </div>
+    <div id=debugText></div>
+    <div class="tutorial-skip hide">Skip</div>
+    <div id=tutorialText class="tutorial-text hide"></div>
+    <div class=floodFill></div>
+    <div id=version class="version hide"></div>
+    <div class=score-table></div>
+    <div id=lobby-wrapper class=hide>
+        <div class="section dark">
+            <div class="container ac">
+                <div class=logo><img src=assets/ui/logo.png width=320><br>
+                    <div class="version hide mainmenuversion"></div>
+                </div>
+                <div class=high-score>
+                    <div class=label>Your highscore</div>
+                    <div class=number id=high-score>0</div>
+                </div>
+                <div class=character-selection-label>Choose a character</div>
+            </div>
+        </div>
+        <div class="section light">
+            <div class="container character-selection-container">
+                <div class=character-container>
+                    <div class="path hamburger"></div><br>
+                    <div class="sprite hamburger"></div>
+                </div>
+                <div class=character-container>
+                    <div class="path donut"></div><br>
+                    <div class="sprite donut"></div>
+                </div>
+                <div class=character-container>
+                    <div class="path unicat"></div><br>
+                    <div class="sprite unicat active"></div>
+                </div>
+                <div class=character-container>
+                    <div class="path orange"></div><br>
+                    <div class="sprite orange"></div>
+                </div>
+                <div class=character-container>
+                    <div class="path police"></div><br>
+                    <div class="sprite police"></div>
+                </div>
+            </div>
+        </div>
+        <div class="section dark pt10">
+            <div class="container play-purchase">
+                <div id=play-button-wrapper>
+                    <div class="play-button start-game"></div>
+                </div>
+                <div id=purchase-button-wrapper>
+                    <div class=rewarded-video-button></div>
+                    <div class="purchase-button purchase"></div>
+                    <div class="purchase-label purchase"></div>
+                    <div class=achievement-label></div>
+                </div>
+                <div class=battle-mode-label>Battle mode - locked</div>
+            </div>
+        </div>
+        <div class=tutorial>Tutorial</div>
+    </div>
+    </body>
+    <script type=text/javascript src=./js/bundle.js?b9b5aa92b76cd653230f> </script> </html>

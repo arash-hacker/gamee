@@ -1,0 +1,2267 @@
+{
+	"textures": [
+		{
+			"image": "atlas_0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1793,
+				"h": 2022
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "fonts/fntText66",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1160,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 1158,
+						"h": 61
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1158,
+						"h": 61
+					}
+				},
+				{
+					"filename": "fonts/fntScore",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1037,
+						"h": 144
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 1035,
+						"h": 142
+					},
+					"frame": {
+						"x": 1,
+						"y": 64,
+						"w": 1035,
+						"h": 142
+					}
+				},
+				{
+					"filename": "themes/1/bg/layer_2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 512,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 512,
+						"h": 360
+					},
+					"frame": {
+						"x": 1,
+						"y": 208,
+						"w": 512,
+						"h": 360
+					}
+				},
+				{
+					"filename": "battle/splash_0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 480,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 480,
+						"h": 360
+					},
+					"frame": {
+						"x": 1,
+						"y": 570,
+						"w": 480,
+						"h": 360
+					}
+				},
+				{
+					"filename": "battle/splash_1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 480,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 480,
+						"h": 360
+					},
+					"frame": {
+						"x": 515,
+						"y": 208,
+						"w": 480,
+						"h": 360
+					}
+				},
+				{
+					"filename": "battle/splash_2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 480,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 480,
+						"h": 360
+					},
+					"frame": {
+						"x": 1,
+						"y": 932,
+						"w": 480,
+						"h": 360
+					}
+				},
+				{
+					"filename": "themes/0/bg/layer_3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 512,
+						"h": 316
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 512,
+						"h": 316
+					},
+					"frame": {
+						"x": 483,
+						"y": 570,
+						"w": 512,
+						"h": 316
+					}
+				},
+				{
+					"filename": "themes/1/bg/layer_3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 512,
+						"h": 316
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 512,
+						"h": 316
+					},
+					"frame": {
+						"x": 483,
+						"y": 888,
+						"w": 512,
+						"h": 316
+					}
+				},
+				{
+					"filename": "themes/1/bg/layer_1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 512,
+						"h": 313
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 512,
+						"h": 313
+					},
+					"frame": {
+						"x": 1,
+						"y": 1294,
+						"w": 512,
+						"h": 313
+					}
+				},
+				{
+					"filename": "themes/0/bg/layer_2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 512,
+						"h": 258
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 512,
+						"h": 258
+					},
+					"frame": {
+						"x": 1,
+						"y": 1609,
+						"w": 512,
+						"h": 258
+					}
+				},
+				{
+					"filename": "themes/0/bg/layer_1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 512,
+						"h": 234
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 512,
+						"h": 234
+					},
+					"frame": {
+						"x": 515,
+						"y": 1206,
+						"w": 512,
+						"h": 234
+					}
+				},
+				{
+					"filename": "themes/2/bg/layer_1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 512,
+						"h": 233
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 512,
+						"h": 233
+					},
+					"frame": {
+						"x": 515,
+						"y": 1442,
+						"w": 512,
+						"h": 233
+					}
+				},
+				{
+					"filename": "themes/2/bg/layer_2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 512,
+						"h": 193
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 512,
+						"h": 193
+					},
+					"frame": {
+						"x": 515,
+						"y": 1677,
+						"w": 512,
+						"h": 193
+					}
+				},
+				{
+					"filename": "themes/2/bg/layer_3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 512,
+						"h": 195
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 512,
+						"h": 195
+					},
+					"frame": {
+						"x": 1161,
+						"y": 1,
+						"w": 512,
+						"h": 195
+					}
+				},
+				{
+					"filename": "themes/0/bg/layer_4",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 512,
+						"h": 42
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 512,
+						"h": 42
+					},
+					"frame": {
+						"x": 1,
+						"y": 1869,
+						"w": 512,
+						"h": 42
+					}
+				},
+				{
+					"filename": "fonts/fntText40",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 752,
+						"h": 40
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 750,
+						"h": 38
+					},
+					"frame": {
+						"x": 1,
+						"y": 1913,
+						"w": 750,
+						"h": 38
+					}
+				},
+				{
+					"filename": "gameplay objects/obstacles/mark_0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 358,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 358,
+						"h": 68
+					},
+					"frame": {
+						"x": 1,
+						"y": 1953,
+						"w": 358,
+						"h": 68
+					}
+				},
+				{
+					"filename": "gameplay objects/obstacles/mark_2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 358,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 358,
+						"h": 68
+					},
+					"frame": {
+						"x": 361,
+						"y": 1953,
+						"w": 358,
+						"h": 68
+					}
+				},
+				{
+					"filename": "ui/lightBeams",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 315,
+						"h": 315
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 315,
+						"h": 310
+					},
+					"frame": {
+						"x": 997,
+						"y": 208,
+						"w": 315,
+						"h": 310
+					}
+				},
+				{
+					"filename": "ui/bonuses/unlockFx",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 266,
+						"h": 294
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 266,
+						"h": 294
+					},
+					"frame": {
+						"x": 997,
+						"y": 520,
+						"w": 266,
+						"h": 294
+					}
+				},
+				{
+					"filename": "path/lightning_06",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 216,
+						"h": 310
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 8,
+						"w": 211,
+						"h": 291
+					},
+					"frame": {
+						"x": 997,
+						"y": 816,
+						"w": 211,
+						"h": 291
+					}
+				},
+				{
+					"filename": "gameplay objects/obstacles/mark_1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 358,
+						"h": 136
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 358,
+						"h": 136
+					},
+					"frame": {
+						"x": 1314,
+						"y": 198,
+						"w": 358,
+						"h": 136
+					}
+				},
+				{
+					"filename": "ui/battle creator/btnTheme_0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 328,
+						"h": 104
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 328,
+						"h": 104
+					},
+					"frame": {
+						"x": 1314,
+						"y": 336,
+						"w": 328,
+						"h": 104
+					}
+				},
+				{
+					"filename": "ui/battle creator/btnTheme_1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 328,
+						"h": 104
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 328,
+						"h": 101
+					},
+					"frame": {
+						"x": 1314,
+						"y": 442,
+						"w": 328,
+						"h": 101
+					}
+				},
+				{
+					"filename": "path/lightning_05",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 216,
+						"h": 310
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 45,
+						"w": 211,
+						"h": 254
+					},
+					"frame": {
+						"x": 1265,
+						"y": 545,
+						"w": 211,
+						"h": 254
+					}
+				},
+				{
+					"filename": "path/lightning_07",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 216,
+						"h": 310
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 21,
+						"w": 192,
+						"h": 288
+					},
+					"frame": {
+						"x": 1478,
+						"y": 545,
+						"w": 192,
+						"h": 288
+					}
+				},
+				{
+					"filename": "themes/0/icon_1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 308,
+						"h": 79
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 308,
+						"h": 79
+					},
+					"frame": {
+						"x": 753,
+						"y": 1872,
+						"w": 308,
+						"h": 79
+					}
+				},
+				{
+					"filename": "ui/common/btnMinor_0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 212,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 212,
+						"h": 68
+					},
+					"frame": {
+						"x": 721,
+						"y": 1953,
+						"w": 212,
+						"h": 68
+					}
+				},
+				{
+					"filename": "gameplay objects/obstacles/trace_2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 136,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 136,
+						"h": 68
+					},
+					"frame": {
+						"x": 935,
+						"y": 1953,
+						"w": 136,
+						"h": 68
+					}
+				},
+				{
+					"filename": "path/lightning_09",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 216,
+						"h": 310
+					},
+					"spriteSourceSize": {
+						"x": 52,
+						"y": 0,
+						"w": 106,
+						"h": 247
+					},
+					"frame": {
+						"x": 1675,
+						"y": 1,
+						"w": 106,
+						"h": 247
+					}
+				},
+				{
+					"filename": "path/lightning_04",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 216,
+						"h": 310
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 90,
+						"w": 210,
+						"h": 209
+					},
+					"frame": {
+						"x": 1029,
+						"y": 1109,
+						"w": 210,
+						"h": 209
+					}
+				},
+				{
+					"filename": "themes/0/btnActBoosterBg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 228,
+						"h": 190
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 228,
+						"h": 190
+					},
+					"frame": {
+						"x": 1029,
+						"y": 1320,
+						"w": 228,
+						"h": 190
+					}
+				},
+				{
+					"filename": "themes/1/btnActBoosterBg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 228,
+						"h": 190
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 228,
+						"h": 190
+					},
+					"frame": {
+						"x": 1029,
+						"y": 1512,
+						"w": 228,
+						"h": 190
+					}
+				},
+				{
+					"filename": "ui/common/btnBigBlue_0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 328,
+						"h": 104
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 328,
+						"h": 104
+					},
+					"frame": {
+						"x": 1029,
+						"y": 1704,
+						"w": 328,
+						"h": 104
+					}
+				},
+				{
+					"filename": "ui/battle creator/btnTheme_2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 328,
+						"h": 104
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 328,
+						"h": 101
+					},
+					"frame": {
+						"x": 1063,
+						"y": 1810,
+						"w": 328,
+						"h": 101
+					}
+				},
+				{
+					"filename": "ui/common/btnBigBlue_1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 328,
+						"h": 104
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 328,
+						"h": 101
+					},
+					"frame": {
+						"x": 1073,
+						"y": 1913,
+						"w": 328,
+						"h": 101
+					}
+				},
+				{
+					"filename": "path/lightning_08",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 216,
+						"h": 310
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 36,
+						"w": 126,
+						"h": 238
+					},
+					"frame": {
+						"x": 1210,
+						"y": 816,
+						"w": 126,
+						"h": 238
+					}
+				},
+				{
+					"filename": "ui/bonuses/big/2x score",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 118,
+						"h": 97
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 118,
+						"h": 97
+					},
+					"frame": {
+						"x": 1674,
+						"y": 250,
+						"w": 118,
+						"h": 97
+					}
+				},
+				{
+					"filename": "themes/2/btnActBoosterBg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 228,
+						"h": 190
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 228,
+						"h": 190
+					},
+					"frame": {
+						"x": 1338,
+						"y": 835,
+						"w": 228,
+						"h": 190
+					}
+				},
+				{
+					"filename": "themes/1/icon_1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 308,
+						"h": 79
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 308,
+						"h": 79
+					},
+					"frame": {
+						"x": 1338,
+						"y": 1027,
+						"w": 308,
+						"h": 79
+					}
+				},
+				{
+					"filename": "themes/2/icon_1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 308,
+						"h": 79
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 308,
+						"h": 79
+					},
+					"frame": {
+						"x": 1241,
+						"y": 1108,
+						"w": 308,
+						"h": 79
+					}
+				},
+				{
+					"filename": "ui/common/btnMinor_1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 212,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 212,
+						"h": 66
+					},
+					"frame": {
+						"x": 1241,
+						"y": 1189,
+						"w": 212,
+						"h": 66
+					}
+				},
+				{
+					"filename": "gameplay objects/obstacles/ice_1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 76,
+						"h": 175
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 76,
+						"h": 175
+					},
+					"frame": {
+						"x": 1568,
+						"y": 835,
+						"w": 76,
+						"h": 175
+					}
+				},
+				{
+					"filename": "ui/bonuses/big/shield",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 131
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 131
+					},
+					"frame": {
+						"x": 1038,
+						"y": 64,
+						"w": 116,
+						"h": 131
+					}
+				},
+				{
+					"filename": "player/overlay/shield",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 133,
+						"h": 133
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 133,
+						"h": 133
+					},
+					"frame": {
+						"x": 1644,
+						"y": 349,
+						"w": 133,
+						"h": 133
+					}
+				},
+				{
+					"filename": "ui/bonuses/big/stop",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 126,
+						"h": 126
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 126,
+						"h": 126
+					},
+					"frame": {
+						"x": 1259,
+						"y": 1257,
+						"w": 126,
+						"h": 126
+					}
+				},
+				{
+					"filename": "path/lightning_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 216,
+						"h": 310
+					},
+					"spriteSourceSize": {
+						"x": 45,
+						"y": 132,
+						"w": 125,
+						"h": 124
+					},
+					"frame": {
+						"x": 1259,
+						"y": 1385,
+						"w": 125,
+						"h": 124
+					}
+				},
+				{
+					"filename": "ui/btnActBoosterFill",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 122,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 122,
+						"h": 122
+					},
+					"frame": {
+						"x": 1259,
+						"y": 1511,
+						"w": 122,
+						"h": 122
+					}
+				},
+				{
+					"filename": "gameplay objects/obstacles/trace_1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 136
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 136
+					},
+					"frame": {
+						"x": 1387,
+						"y": 1257,
+						"w": 68,
+						"h": 136
+					}
+				},
+				{
+					"filename": "gameplay objects/bonuses/2x score",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 115,
+						"h": 115
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 115,
+						"h": 115
+					},
+					"frame": {
+						"x": 1386,
+						"y": 1395,
+						"w": 115,
+						"h": 115
+					}
+				},
+				{
+					"filename": "ui/btnActBoosterFillFx",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 122,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 122,
+						"h": 122
+					},
+					"frame": {
+						"x": 1383,
+						"y": 1512,
+						"w": 122,
+						"h": 122
+					}
+				},
+				{
+					"filename": "gamee/bonusBg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 100,
+						"h": 100
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 100,
+						"h": 100
+					},
+					"frame": {
+						"x": 1551,
+						"y": 1108,
+						"w": 100,
+						"h": 100
+					}
+				},
+				{
+					"filename": "ui/shop/itemBarBg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 152,
+						"h": 17
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 152,
+						"h": 17
+					},
+					"frame": {
+						"x": 515,
+						"y": 1872,
+						"w": 152,
+						"h": 17
+					}
+				},
+				{
+					"filename": "ui/shop/itemBarFill",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 152,
+						"h": 17
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 152,
+						"h": 17
+					},
+					"frame": {
+						"x": 515,
+						"y": 1891,
+						"w": 152,
+						"h": 17
+					}
+				},
+				{
+					"filename": "ui/bonuses/big/freeze",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 109,
+						"h": 118
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 109,
+						"h": 118
+					},
+					"frame": {
+						"x": 1672,
+						"y": 484,
+						"w": 109,
+						"h": 118
+					}
+				},
+				{
+					"filename": "gameplay objects/bonuses/bomb",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 115,
+						"h": 115
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 115,
+						"h": 115
+					},
+					"frame": {
+						"x": 1672,
+						"y": 604,
+						"w": 115,
+						"h": 115
+					}
+				},
+				{
+					"filename": "gameplay objects/bonuses/freeze",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 115,
+						"h": 115
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 115,
+						"h": 115
+					},
+					"frame": {
+						"x": 1672,
+						"y": 604,
+						"w": 115,
+						"h": 115
+					}
+				},
+				{
+					"filename": "gameplay objects/bonuses/stop",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 115,
+						"h": 115
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 115,
+						"h": 115
+					},
+					"frame": {
+						"x": 1672,
+						"y": 721,
+						"w": 115,
+						"h": 115
+					}
+				},
+				{
+					"filename": "gameplay objects/obstacles/ice_2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 144,
+						"h": 105
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 144,
+						"h": 105
+					},
+					"frame": {
+						"x": 1646,
+						"y": 838,
+						"w": 144,
+						"h": 105
+					}
+				},
+				{
+					"filename": "themes/1/icon_0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 142,
+						"h": 79
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 142,
+						"h": 79
+					},
+					"frame": {
+						"x": 1646,
+						"y": 945,
+						"w": 142,
+						"h": 79
+					}
+				},
+				{
+					"filename": "themes/2/icon_0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 142,
+						"h": 79
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 142,
+						"h": 79
+					},
+					"frame": {
+						"x": 1648,
+						"y": 1026,
+						"w": 142,
+						"h": 79
+					}
+				},
+				{
+					"filename": "ui/bonuses/big/bomb",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 130,
+						"h": 105
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 130,
+						"h": 105
+					},
+					"frame": {
+						"x": 1653,
+						"y": 1107,
+						"w": 130,
+						"h": 105
+					}
+				},
+				{
+					"filename": "themes/0/obstacles/1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 136
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 136
+					},
+					"frame": {
+						"x": 1457,
+						"y": 1189,
+						"w": 68,
+						"h": 136
+					}
+				},
+				{
+					"filename": "path/lightning_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 216,
+						"h": 310
+					},
+					"spriteSourceSize": {
+						"x": 54,
+						"y": 141,
+						"w": 109,
+						"h": 110
+					},
+					"frame": {
+						"x": 1527,
+						"y": 1210,
+						"w": 109,
+						"h": 110
+					}
+				},
+				{
+					"filename": "path/lightning_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 216,
+						"h": 310
+					},
+					"spriteSourceSize": {
+						"x": 53,
+						"y": 137,
+						"w": 106,
+						"h": 110
+					},
+					"frame": {
+						"x": 1638,
+						"y": 1214,
+						"w": 106,
+						"h": 110
+					}
+				},
+				{
+					"filename": "ui/common/btnMinorSquare_1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 68,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 68,
+						"h": 66
+					},
+					"frame": {
+						"x": 1457,
+						"y": 1327,
+						"w": 68,
+						"h": 66
+					}
+				},
+				{
+					"filename": "themes/0/endPoint",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 106,
+						"h": 106
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 106,
+						"h": 106
+					},
+					"frame": {
+						"x": 1527,
+						"y": 1322,
+						"w": 106,
+						"h": 106
+					}
+				},
+				{
+					"filename": "themes/1/endPoint",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 106,
+						"h": 106
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 106,
+						"h": 106
+					},
+					"frame": {
+						"x": 1635,
+						"y": 1326,
+						"w": 106,
+						"h": 106
+					}
+				},
+				{
+					"filename": "ui/bonuses/bomb",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 74,
+						"h": 60
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 74,
+						"h": 60
+					},
+					"frame": {
+						"x": 1259,
+						"y": 1635,
+						"w": 74,
+						"h": 60
+					}
+				},
+				{
+					"filename": "themes/0/bg/layer_0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 128
+					},
+					"frame": {
+						"x": 1746,
+						"y": 1214,
+						"w": 16,
+						"h": 128
+					}
+				},
+				{
+					"filename": "themes/1/bg/layer_0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 128
+					},
+					"frame": {
+						"x": 1764,
+						"y": 1214,
+						"w": 16,
+						"h": 128
+					}
+				},
+				{
+					"filename": "ui/shop/itemStateMark_0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 100
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 100
+					},
+					"frame": {
+						"x": 1743,
+						"y": 1344,
+						"w": 48,
+						"h": 100
+					}
+				},
+				{
+					"filename": "themes/2/endPoint",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 106,
+						"h": 106
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 106,
+						"h": 106
+					},
+					"frame": {
+						"x": 1359,
+						"y": 1636,
+						"w": 106,
+						"h": 106
+					}
+				},
+				{
+					"filename": "ui/bonuses/stop",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 64
+					},
+					"frame": {
+						"x": 1359,
+						"y": 1744,
+						"w": 64,
+						"h": 64
+					}
+				},
+				{
+					"filename": "themes/1/obstacles/1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 136
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 136
+					},
+					"frame": {
+						"x": 1467,
+						"y": 1636,
+						"w": 68,
+						"h": 136
+					}
+				},
+				{
+					"filename": "ui/shop/itemStateMark_1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 100
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 100
+					},
+					"frame": {
+						"x": 1393,
+						"y": 1810,
+						"w": 48,
+						"h": 100
+					}
+				},
+				{
+					"filename": "themes/2/obstacles/1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 136
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 136
+					},
+					"frame": {
+						"x": 1443,
+						"y": 1774,
+						"w": 68,
+						"h": 136
+					}
+				},
+				{
+					"filename": "ui/btnBattle_0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 100,
+						"h": 105
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 100,
+						"h": 105
+					},
+					"frame": {
+						"x": 1403,
+						"y": 1912,
+						"w": 100,
+						"h": 105
+					}
+				},
+				{
+					"filename": "themes/2/bg/layer_0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 128
+					},
+					"frame": {
+						"x": 1513,
+						"y": 1774,
+						"w": 16,
+						"h": 128
+					}
+				},
+				{
+					"filename": "gameplay objects/obstacles/trace_0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 68
+					},
+					"frame": {
+						"x": 1503,
+						"y": 1430,
+						"w": 68,
+						"h": 68
+					}
+				},
+				{
+					"filename": "gameplay objects/obstacles/ice_0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 76,
+						"h": 105
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 76,
+						"h": 105
+					},
+					"frame": {
+						"x": 1507,
+						"y": 1500,
+						"w": 76,
+						"h": 105
+					}
+				},
+				{
+					"filename": "ui/bonuses/shield",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 56,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 56,
+						"h": 63
+					},
+					"frame": {
+						"x": 1573,
+						"y": 1430,
+						"w": 56,
+						"h": 63
+					}
+				},
+				{
+					"filename": "ui/btnBattle_1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 100,
+						"h": 105
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 100,
+						"h": 102
+					},
+					"frame": {
+						"x": 1631,
+						"y": 1434,
+						"w": 100,
+						"h": 102
+					}
+				},
+				{
+					"filename": "themes/0/obstacles/2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 136,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 136,
+						"h": 68
+					},
+					"frame": {
+						"x": 1585,
+						"y": 1538,
+						"w": 136,
+						"h": 68
+					}
+				},
+				{
+					"filename": "themes/1/obstacles/2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 136,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 136,
+						"h": 68
+					},
+					"frame": {
+						"x": 1537,
+						"y": 1608,
+						"w": 136,
+						"h": 68
+					}
+				},
+				{
+					"filename": "themes/2/obstacles/2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 136,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 136,
+						"h": 68
+					},
+					"frame": {
+						"x": 1537,
+						"y": 1678,
+						"w": 136,
+						"h": 68
+					}
+				},
+				{
+					"filename": "ui/shop/itemStateMark_2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 100
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 100
+					},
+					"frame": {
+						"x": 1675,
+						"y": 1608,
+						"w": 48,
+						"h": 100
+					}
+				},
+				{
+					"filename": "gamee/extraLife",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 94,
+						"h": 84
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 94,
+						"h": 84
+					},
+					"frame": {
+						"x": 1537,
+						"y": 1748,
+						"w": 94,
+						"h": 84
+					}
+				},
+				{
+					"filename": "themes/0/obstacles/0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 68
+					},
+					"frame": {
+						"x": 1531,
+						"y": 1834,
+						"w": 68,
+						"h": 68
+					}
+				},
+				{
+					"filename": "themes/1/obstacles/0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 68
+					},
+					"frame": {
+						"x": 1633,
+						"y": 1748,
+						"w": 68,
+						"h": 68
+					}
+				},
+				{
+					"filename": "ui/bonuses/freeze",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 60
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 60
+					},
+					"frame": {
+						"x": 1733,
+						"y": 1446,
+						"w": 55,
+						"h": 60
+					}
+				},
+				{
+					"filename": "player/overlay/2x score",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 65,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 7,
+						"w": 51,
+						"h": 49
+					},
+					"frame": {
+						"x": 1210,
+						"y": 1056,
+						"w": 51,
+						"h": 49
+					}
+				},
+				{
+					"filename": "gameplay objects/obstacles/desPart_0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 32,
+						"h": 32
+					},
+					"frame": {
+						"x": 1029,
+						"y": 1810,
+						"w": 32,
+						"h": 32
+					}
+				},
+				{
+					"filename": "themes/2/obstacles/0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 68
+					},
+					"frame": {
+						"x": 1601,
+						"y": 1834,
+						"w": 68,
+						"h": 68
+					}
+				},
+				{
+					"filename": "gamee/vipBadge",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 61,
+						"h": 33
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 61,
+						"h": 33
+					},
+					"frame": {
+						"x": 669,
+						"y": 1872,
+						"w": 61,
+						"h": 33
+					}
+				},
+				{
+					"filename": "gamee/coin",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 53
+					},
+					"frame": {
+						"x": 1733,
+						"y": 1508,
+						"w": 55,
+						"h": 53
+					}
+				},
+				{
+					"filename": "gameplay objects/obstacles/desPart_1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 32,
+						"h": 32
+					},
+					"frame": {
+						"x": 1338,
+						"y": 801,
+						"w": 32,
+						"h": 32
+					}
+				},
+				{
+					"filename": "gameplay objects/obstacles/desPart_2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 32,
+						"h": 32
+					},
+					"frame": {
+						"x": 1372,
+						"y": 801,
+						"w": 32,
+						"h": 32
+					}
+				},
+				{
+					"filename": "ui/common/btnMinorSquare_0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 68
+					},
+					"frame": {
+						"x": 1671,
+						"y": 1818,
+						"w": 68,
+						"h": 68
+					}
+				},
+				{
+					"filename": "ui/bonuses/2x score",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 70,
+						"h": 57
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 70,
+						"h": 57
+					},
+					"frame": {
+						"x": 1671,
+						"y": 1888,
+						"w": 70,
+						"h": 57
+					}
+				},
+				{
+					"filename": "ui/lockIcon",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 34,
+						"h": 45
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 34,
+						"h": 45
+					},
+					"frame": {
+						"x": 1263,
+						"y": 1056,
+						"w": 34,
+						"h": 45
+					}
+				},
+				{
+					"filename": "gameplay objects/bonuses/trace",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 66,
+						"h": 66
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 66,
+						"h": 66
+					},
+					"frame": {
+						"x": 1725,
+						"y": 1563,
+						"w": 66,
+						"h": 66
+					}
+				},
+				{
+					"filename": "player/ball_0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 65,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 65,
+						"h": 65
+					},
+					"frame": {
+						"x": 1725,
+						"y": 1631,
+						"w": 65,
+						"h": 65
+					}
+				},
+				{
+					"filename": "player/overlay/stop",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 65,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 65,
+						"h": 65
+					},
+					"frame": {
+						"x": 1725,
+						"y": 1698,
+						"w": 65,
+						"h": 65
+					}
+				},
+				{
+					"filename": "player/trace_0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 65,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 65,
+						"h": 65
+					},
+					"frame": {
+						"x": 1505,
+						"y": 1912,
+						"w": 65,
+						"h": 65
+					}
+				},
+				{
+					"filename": "gamee/video",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 56,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 56,
+						"h": 56
+					},
+					"frame": {
+						"x": 1572,
+						"y": 1904,
+						"w": 56,
+						"h": 56
+					}
+				},
+				{
+					"filename": "gamee/gem",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 58,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 58,
+						"h": 53
+					},
+					"frame": {
+						"x": 1572,
+						"y": 1962,
+						"w": 58,
+						"h": 53
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:91df6b61f1fc31ed3a93313353aacc12:845c8c800cae4cefac413445524f621b:706f367750a4a47d7feca429705e8a03$"
+	}
+}

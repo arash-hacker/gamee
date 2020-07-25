@@ -1,0 +1,38 @@
+{
+  "resources": [
+    "sfx.ogg",
+    "sfx.mp3"
+  ],
+  "spritemap": {
+    "bomb": {
+      "start": 0,
+      "end": 1.3110430839002267,
+      "loop": false
+    },
+    "bonus": {
+      "start": 3,
+      "end": 3.7207482993197276,
+      "loop": false
+    },
+    "bonusIntro": {
+      "start": 5,
+      "end": 7.773151927437642,
+      "loop": false
+    },
+    "click": {
+      "start": 9,
+      "end": 9.078888888888889,
+      "loop": false
+    },
+    "freeze": {
+      "start": 11,
+      "end": 12.245260770975056,
+      "loop": false
+    },
+    "shield": {
+      "start": 14,
+      "end": 16.666122448979593,
+      "loop": false
+    }
+  }
+}

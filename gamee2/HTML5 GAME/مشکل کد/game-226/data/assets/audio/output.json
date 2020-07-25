@@ -1,0 +1,60 @@
+{
+  "resources": [
+    "output.ogg",
+    "output.m4a",
+    "output.mp3",
+    "output.ac3"
+  ],
+  "spritemap": {
+    "2_throw_2": {
+      "start": 0,
+      "end": 0.5224489795918368,
+      "loop": false
+    },
+    "2_throw_4": {
+      "start": 2,
+      "end": 2.444081632653061,
+      "loop": false
+    },
+    "3_rim_1": {
+      "start": 4,
+      "end": 4.705306122448979,
+      "loop": false
+    },
+    "3_rim_7": {
+      "start": 6,
+      "end": 6.391836734693878,
+      "loop": false
+    },
+    "4_hit_3": {
+      "start": 8,
+      "end": 8.783673469387756,
+      "loop": false
+    },
+    "5_miss_1": {
+      "start": 10,
+      "end": 11.619591836734694,
+      "loop": false
+    },
+    "6_toilet_drama": {
+      "start": 13,
+      "end": 15.795102040816326,
+      "loop": false
+    },
+    "7_flush": {
+      "start": 17,
+      "end": 19.40326530612245,
+      "loop": false
+    },
+    "8_evil_laugh": {
+      "start": 21,
+      "end": 23.0278231292517,
+      "loop": false
+    },
+    "9_clean": {
+      "start": 25,
+      "end": 26.69795918367347,
+      "loop": false
+    }
+  }
+}

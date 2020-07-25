@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70.221" height="70.221" viewBox="0 0 70.221 70.221">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0066b3"/>
+      <stop offset="1" stop-color="#008af2"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_6895" data-name="Group 6895" transform="translate(17789.246 8554.24)">
+    <g id="play-button_2_" data-name="play-button (2)" transform="translate(-17789.25 -8554.24)">
+      <g id="Group_3534" data-name="Group 3534" transform="translate(0.004)">
+        <path id="Path_10604" data-name="Path 10604" d="M35.114,0a35.11,35.11,0,1,0,35.11,35.11A35.109,35.109,0,0,0,35.114,0Z" transform="translate(-0.004)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="Group_6894" data-name="Group 6894" transform="translate(121 -1)">
+      <rect id="Rectangle_1614" data-name="Rectangle 1614" width="7" height="35" rx="3.5" transform="translate(-17885 -8536)" fill="#fff"/>
+      <rect id="Rectangle_1615" data-name="Rectangle 1615" width="7" height="35" rx="3.5" transform="translate(-17872 -8536)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,38 @@
+/* -----------------------------------------------------
+   created with https://www.codeandweb.com/texturepacker
+   -----------------------------------------------------
+   $TexturePacker:SmartUpdate:01b570615e498056478b51dd4727567b:2a6d475809d3dff4fadfc6f5969b40de:7129212321679f9f9230b34538b39047$
+   -----------------------------------------------------
+
+   usage: <span class="{-spritename-} sprite"></span>
+
+   replace {-spritename-} with the sprite you like to use
+
+*/
+
+.snakes {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(snakes.png);}
+
+.bee-body {width:58px; height:58px; background-position: -1px -1px}
+.bee-head {width:58px; height:58px; background-position: -60px -1px}
+.blue-body {width:58px; height:58px; background-position: -119px -1px}
+.blue-head {width:58px; height:58px; background-position: -178px -1px}
+.blue2-body {width:55px; height:58px; background-position: -237px -1px}
+.blue2-head {width:55px; height:58px; background-position: -1px -60px}
+.green-body {width:58px; height:46px; background-position: -57px -60px}
+.green-head {width:91px; height:50px; background-position: -116px -60px}
+.green2-body {width:58px; height:58px; background-position: -208px -60px}
+.green2-head {width:58px; height:58px; background-position: -1px -119px}
+.koi-body {width:54px; height:50px; background-position: -60px -119px}
+.koi-head {width:73px; height:58px; background-position: -115px -119px}
+.pink-body {width:57px; height:58px; background-position: -189px -119px}
+.pink-head {width:57px; height:58px; background-position: -247px -119px}
+.red-body {width:58px; height:58px; background-position: -1px -178px}
+.red-head {width:58px; height:58px; background-position: -60px -178px}
+.robot-body {width:58px; height:58px; background-position: -119px -178px}
+.robot-head {width:58px; height:58px; background-position: -178px -178px}
+.starfish-body {width:58px; height:58px; background-position: -237px -178px}
+.starfish-head {width:58px; height:58px; background-position: -1px -237px}
+.unicorn-body {width:58px; height:58px; background-position: -60px -237px}
+.unicorn-head {width:58px; height:58px; background-position: -119px -237px}
+.yellow-body {width:58px; height:58px; background-position: -178px -237px}
+.yellow-head {width:58px; height:58px; background-position: -237px -237px}

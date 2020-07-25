@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=375">
+    <meta name=HandheldFriendly content=True>
+    <meta name=MobileOptimized content=375>
+    <meta http-equiv=cleartype content=on>
+    <meta name=format-detection content="telephone=no">
+    <style>
+        @font-face {
+            font-family: barlowblack;
+            src: url(assets/fonts/barlow-black-webfont.eot);
+            src: url(assets/fonts/barlow-black-webfont.eot?#iefix) format('embedded-opentype'), url(assets/fonts/barlow-black-webfont.woff2) format('woff2'), url(assets/fonts/barlow-black-webfont.woff) format('woff'), url(assets/fonts/barlow-black-webfont.ttf) format('truetype'), url(assets/fonts/barlow-black-webfont.svg#barlowblack) format('svg');
+            font-weight: 400;
+            font-style: normal
+        }
+
+        @font-face {
+            font-family: barlowsemibold;
+            src: url(assets/fonts/barlow-semibold-webfont.eot);
+            src: url(assets/fonts/barlow-semibold-webfont.eot?#iefix) format('embedded-opentype'), url(assets/fonts/barlow-semibold-webfont.woff2) format('woff2'), url(assets/fonts/barlow-semibold-webfont.woff) format('woff'), url(assets/fonts/barlow-semibold-webfont.ttf) format('truetype'), url(assets/fonts/barlow-semibold-webfont.svg#barlowsemibold) format('svg');
+            font-weight: 400;
+            font-style: normal
+        }
+
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            background: #fdf1d2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+            font-size: 0;
+            overflow: hidden;
+            transition: background-color .3s .15s ease
+        }
+
+        #content {
+            overflow: visible !important
+        }
+
+        #header {
+            position: fixed;
+            left: 0;
+            top: 20px;
+            right: 0;
+            margin: 0 auto;
+            transition: transform .3s ease
+        }
+
+        #header.is--hidden {
+            transform: translateY(-100px)
+        }
+
+        #highscore__wrap {
+            position: absolute;
+            left: 20px;
+            top: 0;
+            width: 110px;
+            height: 40px;
+            border-radius: 20px;
+            border: solid 2px #af4c00;
+            box-sizing: border-box;
+            display: flex;
+            align-items: stretch;
+            background: #fff;
+            overflow: hidden
+        }
+
+        #playerImage {
+            margin: 3px;
+            width: 30px;
+            border-radius: 100%;
+            height: 30px;
+            background: #ececec;
+            overflow: hidden;
+            position: relative;
+            background: url(assets/images/player_placeholder.svg) center/cover no-repeat;
+            transform: translateZ(0);
+            -webkit-transform: translateZ(0);
+            -webkit-mask-image: -webkit-radial-gradient(circle, #fff 100%, #000 100%)
+        }
+
+        #playerImage img {
+            position: relative;
+            border: 0;
+            outline: 0;
+            width: 30px;
+            height: auto;
+            min-height: 30px;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            top: 50%
+        }
+
+        #highscore__textWrap {
+            display: inline-flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: left
+        }
+
+        #highscore__text {
+            font-size: 12px;
+            font-weight: 600;
+            color: #af4c00;
+            display: block;
+            font-family: barlowsemibold
+        }
+
+        #highscore {
+            font-size: 20px;
+            line-height: 16px;
+            margin-bottom: 2px;
+            font-weight: 800;
+            color: #af4c00;
+            display: block;
+            font-family: barlowblack
+        }
+
+        #challenger__vs {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            text-align: center;
+            font-family: barlowblack;
+            font-size: 20px;
+            line-height: 40px;
+            font-weight: 800;
+            color: #af4c00;
+            overflow: hidden
+        }
+
+        #challenger__vs.is--hidden {
+            -webkit-transform: translateY(-200%);
+            transform: translateY(-200%)
+        }
+
+        .challenger__wrap {
+            position: absolute;
+            right: 20px;
+            top: 0;
+            width: 110px;
+            height: 40px;
+            border-radius: 20px;
+            border: solid 2px #124963;
+            box-sizing: border-box;
+            display: flex;
+            align-items: stretch;
+            justify-content: flex-end;
+            background: #fff
+        }
+
+        .challenger__wrap.is--next {
+            -webkit-transform: translateX(200%);
+            transform: translateX(200%)
+        }
+
+        .challenger__wrap.is--current {
+            -webkit-transform: none;
+            transform: none;
+            transition: transform .3s ease-in-out
+        }
+
+        .challenger__wrap.is--defeated {
+            -webkit-transform: translateY(-200%);
+            transform: translateY(-200%)
+        }
+
+        .challenger__wrap.is--hidden {
+            -webkit-transform: translateY(-200%);
+            transform: translateY(-200%)
+        }
+
+        .challenger__textWrap {
+            display: inline-flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: right
+        }
+
+        .challenger__name {
+            font-size: 12px;
+            font-weight: 600;
+            color: #124963;
+            display: block;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            max-width: 61px;
+            font-family: barlowsemibold
+        }
+
+        .challenger__score {
+            font-size: 20px;
+            line-height: 16px;
+            margin-bottom: 2px;
+            font-weight: 800;
+            color: #124963;
+            display: block;
+            font-family: barlowblack
+        }
+
+        .challenger__iconWrap {
+            margin: 3px;
+            width: 30px;
+            border-radius: 100%;
+            height: 30px;
+            background: #ececec;
+            overflow: hidden;
+            position: relative;
+            background: url(assets/images/player_placeholder.svg) center/cover no-repeat;
+            transform: translateZ(0);
+            -webkit-transform: translateZ(0);
+            -webkit-mask-image: -webkit-radial-gradient(circle, #fff 100%, #000 100%)
+        }
+
+        .challenger__iconWrap img {
+            position: relative;
+            border: 0;
+            outline: 0;
+            width: 30px;
+            height: auto;
+            min-height: 30px;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            top: 50%
+        }
+
+        #content {
+            position: relative
+        }
+    </style>
+</head>
+
+<body>
+    <div id=header>
+        <div id=highscore__wrap>
+            <div id=playerImage></div>
+            <div id=highscore__textWrap><span id=highscore__text>You</span> <span id=highscore>0</span></div>
+        </div>
+        <div id=challenger__vs class=is--hidden>vs.</div>
+        <div id=challengerWrap1 class="challenger__wrap is--hidden">
+            <div class=challenger__textWrap><span id=challengerName1 class=challenger__name></span> <span
+                    id=challengerScore1 class=challenger__score></span></div>
+            <div class=challenger__iconWrap id=challengerImgWrap1></div>
+        </div>
+    </div>
+    <div id=content></div>
+    <script type=text/javascript src=./js/vendor.bundle.js?7764982ddc10850c4896> </script>
+    <script type=text/javascript src=./js/bundle.js?7764982ddc10850c4896> </script>
+</body>
+
+</html>

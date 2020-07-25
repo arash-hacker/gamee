@@ -1,0 +1,24 @@
+<font>
+  <info face="fntRed120" size="60" bold="0" italic="0" charset="" unicode="" stretchH="100" smooth="1" aa="1" padding="2,2,2,2" spacing="0,0" outline="0"/>
+  <common lineHeight="61" base="59" scaleW="374" scaleH="64" pages="1" packed="0"/>
+  <pages>
+    <page id="0" file="fntRed120.png"/>
+  </pages>
+  <chars count="14">
+    <char id="49" x="2" y="2" width="24" height="58" xoffset="4" yoffset="1" xadvance="31" page="0" chnl="15"/>
+    <char id="50" x="28" y="2" width="24" height="59" xoffset="4" yoffset="0" xadvance="31" page="0" chnl="15"/>
+    <char id="51" x="54" y="2" width="24" height="60" xoffset="4" yoffset="0" xadvance="31" page="0" chnl="15"/>
+    <char id="52" x="80" y="2" width="29" height="58" xoffset="2" yoffset="1" xadvance="31" page="0" chnl="15"/>
+    <char id="53" x="111" y="2" width="24" height="59" xoffset="4" yoffset="1" xadvance="31" page="0" chnl="15"/>
+    <char id="54" x="137" y="2" width="24" height="60" xoffset="4" yoffset="0" xadvance="31" page="0" chnl="15"/>
+    <char id="55" x="163" y="2" width="25" height="58" xoffset="4" yoffset="1" xadvance="31" page="0" chnl="15"/>
+    <char id="56" x="190" y="2" width="24" height="60" xoffset="4" yoffset="0" xadvance="31" page="0" chnl="15"/>
+    <char id="57" x="216" y="2" width="24" height="60" xoffset="4" yoffset="0" xadvance="31" page="0" chnl="15"/>
+    <char id="48" x="242" y="2" width="24" height="60" xoffset="4" yoffset="0" xadvance="31" page="0" chnl="15"/>
+    <char id="120" x="268" y="2" width="28" height="51" xoffset="1" yoffset="8" xadvance="30" page="0" chnl="15"/>
+    <char id="115" x="298" y="2" width="24" height="53" xoffset="3" yoffset="7" xadvance="30" page="0" chnl="15"/>
+    <char id="101" x="324" y="2" width="22" height="51" xoffset="4" yoffset="8" xadvance="28" page="0" chnl="15"/>
+    <char id="99" x="348" y="2" width="24" height="53" xoffset="3" yoffset="7" xadvance="30" page="0" chnl="15"/>
+    <char id="32" x="0" y="0" width="0" height="0" xoffset="3" yoffset="7" xadvance="15" page="0" chnl="15"/>
+  </chars>
+</font>

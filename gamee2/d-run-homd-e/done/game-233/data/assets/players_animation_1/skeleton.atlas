@@ -1,0 +1,55 @@
+
+skeleton.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pink_ball/LAUGHING
+  rotate: false
+  xy: 155, 34
+  size: 61, 73
+  orig: 61, 73
+  offset: 0, 0
+  index: -1
+pink_ball/ball
+  rotate: false
+  xy: 2, 19
+  size: 88, 88
+  orig: 88, 88
+  offset: 0, 0
+  index: -1
+pink_ball/blink
+  rotate: false
+  xy: 2, 2
+  size: 62, 15
+  orig: 62, 15
+  offset: 0, 0
+  index: -1
+pink_ball/eyes_angry
+  rotate: false
+  xy: 283, 56
+  size: 65, 51
+  orig: 65, 51
+  offset: 0, 0
+  index: -1
+pink_ball/eyes_fast_slide
+  rotate: false
+  xy: 350, 64
+  size: 73, 43
+  orig: 73, 43
+  offset: 0, 0
+  index: -1
+pink_ball/eyes_open
+  rotate: false
+  xy: 218, 37
+  size: 63, 70
+  orig: 63, 70
+  offset: 0, 0
+  index: -1
+pink_ball/scared
+  rotate: false
+  xy: 92, 23
+  size: 61, 84
+  orig: 61, 84
+  offset: 0, 0
+  index: -1

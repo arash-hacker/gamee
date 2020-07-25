@@ -1,0 +1,52 @@
+/* -----------------------------------------------------
+   created with https://www.codeandweb.com/texturepacker
+   -----------------------------------------------------
+   $TexturePacker:SmartUpdate:9787a18b28706b4b002aa37dc5053020:ba55e0b21b949d5fb694b14f3b9bcb19:73d118f041d36705b1de2d0ba39e9d06$
+   -----------------------------------------------------
+
+   usage: <span class="{-spritename-} sprite"></span>
+
+   replace {-spritename-} with the sprite you like to use
+
+*/
+
+.sprite {
+    display:inline-block;
+    overflow:hidden;
+    background-repeat: no-repeat;
+    background-image:url('../ui/characters_128.png');
+}
+
+.sprite.bat {width:128px; height:162px; background-position: -1px -1px}
+.sprite.cake {width:128px; height:162px; background-position: -149px -1px}
+.sprite.coffee {width:128px; height:164px; background-position: -297px -1px}
+.sprite.crocodile {width:128px; height:166px; background-position: -1px -185px}
+.sprite.donut {width:128px; height:162px; background-position: -149px -185px}
+.sprite.f1 {width:128px; height:164px; background-position: -297px -185px}
+.sprite.finger {width:128px; height:162px; background-position: -1px -371px}
+.sprite.hamburger {width:128px; height:162px; background-position: -149px -371px}
+.sprite.heart {width:128px; height:144px; background-position: -297px -371px}
+.sprite.joypad {width:128px; height:189px; background-position: -1px -553px}
+.sprite.money {width:128px; height:162px; background-position: -149px -553px}
+.sprite.monster_blue {width:128px; height:162px; background-position: -297px -553px}
+.sprite.monster_green {width:128px; height:162px; background-position: -1px -762px}
+.sprite.monster_orange {width:128px; height:162px; background-position: -149px -762px}
+.sprite.monster_violet {width:128px; height:162px; background-position: -297px -762px}
+.sprite.mouth {width:128px; height:166px; background-position: -1px -944px}
+.sprite.orange {width:128px; height:162px; background-position: -149px -944px}
+.sprite.pizza {width:128px; height:160px; background-position: -297px -944px}
+.sprite.police {width:128px; height:162px; background-position: -1px -1130px}
+.sprite.pyramid {width:128px; height:160px; background-position: -149px -1130px}
+.sprite.repro {width:128px; height:162px; background-position: -297px -1130px}
+.sprite.rip {width:128px; height:162px; background-position: -1px -1312px}
+.sprite.rose {width:128px; height:162px; background-position: -149px -1312px}
+.sprite.shark {width:128px; height:164px; background-position: -297px -1312px}
+.sprite.shit {width:128px; height:162px; background-position: -1px -1496px}
+.sprite.stargate {width:128px; height:162px; background-position: -149px -1496px}
+.sprite.submarine {width:128px; height:159px; background-position: -297px -1496px}
+.sprite.sushi {width:128px; height:162px; background-position: -1px -1678px}
+.sprite.tank {width:128px; height:162px; background-position: -149px -1678px}
+.sprite.tape {width:128px; height:162px; background-position: -297px -1678px}
+.sprite.tv {width:128px; height:162px; background-position: -1px -1860px}
+.sprite.ufo {width:128px; height:162px; background-position: -149px -1860px}
+.sprite.unicat {width:128px; height:162px; background-position: -297px -1860px}

@@ -1,0 +1,542 @@
+{
+    "environments": [ {
+        "id": 0,
+        "depth": 0,
+        "scoreBonus": 1,
+        "oxygen": 5000,
+        "oxygenGain": 3000,
+        "upgrades": [ {
+            "level": 1, "cost": 5, "time": 8000
+        }
+        ,
+        {
+            "level": 2, "cost": 15, "time": 11000
+        }
+        ,
+        {
+            "level": 3, "cost": 30, "time": 13000
+        }
+        ,
+        {
+            "level": 4, "cost": 50, "time": 15000
+        }
+        ,
+        {
+            "level": 5, "cost": 75, "time": 17000
+        }
+        ,
+        {
+            "level": 6, "cost": 100, "time": 19000
+        }
+        ,
+        {
+            "level": 7, "cost": 150, "time": 20000
+        }
+        ],
+        "levels": [ {
+            "deph": 10,
+            "distribution": {
+                "ground": 40, "rock": 0, "stone": 0, "oxygen": 6, "ded": 0, "slow": 0, "iron": 0, "dynamite": 0, "pickaxe": 0
+            }
+            ,
+            "gems": 6
+        }
+        ,
+        {
+            "deph": 30,
+            "distribution": {
+                "ground": 40, "rock": 10, "stone": 1, "oxygen": 5, "ded": 0, "slow": 0, "iron": 0, "dynamite": 2, "pickaxe": 0
+            }
+            ,
+            "gems": 10
+        }
+        ,
+        {
+            "deph": 60,
+            "distribution": {
+                "ground": 40, "rock": 5, "stone": 0, "oxygen": 5, "ded": 0, "slow": 0, "iron": 5, "dynamite": 1, "pickaxe": 0
+            }
+            ,
+            "gems": 14
+        }
+        ,
+        {
+            "deph": 90,
+            "distribution": {
+                "ground": 40, "rock": 10, "stone": 7, "oxygen": 4, "ded": 0, "slow": 10, "iron": 3, "dynamite": 2, "pickaxe": 0
+            }
+            ,
+            "gems": 20
+        }
+        ,
+        {
+            "deph": 120,
+            "distribution": {
+                "ground": 40, "rock": 10, "stone": 4, "oxygen": 4, "ded": 6, "slow": 2, "iron": 4, "dynamite": 2, "pickaxe": 0
+            }
+            ,
+            "gems": 30
+        }
+        ,
+        {
+            "deph": 150,
+            "distribution": {
+                "ground": 40, "rock": 10, "stone": 4, "oxygen": 3, "ded": 6, "slow": 3, "iron": 6, "dynamite": 1, "pickaxe": 0
+            }
+            ,
+            "gems": 40
+        }
+        ]
+    }
+    ,
+    {
+        "id": 1,
+        "depth": 200,
+        "scoreBonus": 1.2,
+        "oxygen": 9000,
+        "oxygenGain": 4000,
+        "upgrades": [ {
+            "level": 1, "cost": 10, "time": 10000
+        }
+        ,
+        {
+            "level": 2, "cost": 30, "time": 11000
+        }
+        ,
+        {
+            "level": 3, "cost": 50, "time": 12000
+        }
+        ,
+        {
+            "level": 4, "cost": 80, "time": 13000
+        }
+        ,
+        {
+            "level": 5, "cost": 110, "time": 14000
+        }
+        ,
+        {
+            "level": 6, "cost": 150, "time": 17000
+        }
+        ,
+        {
+            "level": 7, "cost": 200, "time": 20000
+        }
+        ],
+        "levels": [ {
+            "deph": 20,
+            "distribution": {
+                "ground": 40, "rock": 0, "stone": 0, "oxygen": 7, "ded": 1, "slow": 0, "iron": 0, "dynamite": 0, "pickaxe": 0
+            }
+            ,
+            "gems": 6
+        }
+        ,
+        {
+            "deph": 50,
+            "distribution": {
+                "ground": 40, "rock": 20, "stone": 0, "oxygen": 6, "ded": 1, "slow": 0, "iron": 1, "dynamite": 0, "pickaxe": 3
+            }
+            ,
+            "gems": 10
+        }
+        ,
+        {
+            "deph": 80,
+            "distribution": {
+                "ground": 40, "rock": 5, "stone": 5, "oxygen": 6, "ded": 0, "slow": 0, "iron": 5, "dynamite": 1, "pickaxe": 1
+            }
+            ,
+            "gems": 14
+        }
+        ,
+        {
+            "deph": 110,
+            "distribution": {
+                "ground": 40, "rock": 15, "stone": 2, "oxygen": 5, "ded": 0, "slow": 10, "iron": 6, "dynamite": 0, "pickaxe": 2
+            }
+            ,
+            "gems": 20
+        }
+        ,
+        {
+            "deph": 150,
+            "distribution": {
+                "ground": 40, "rock": 10, "stone": 6, "oxygen": 5, "ded": 4, "slow": 2, "iron": 7, "dynamite": 2, "pickaxe": 2
+            }
+            ,
+            "gems": 30
+        }
+        ,
+        {
+            "deph": 200,
+            "distribution": {
+                "ground": 20, "rock": 10, "stone": 7, "oxygen": 4, "ded": 6, "slow": 3, "iron": 8, "dynamite": 1, "pickaxe": 1
+            }
+            ,
+            "gems": 40
+        }
+        ]
+    }
+    ,
+    {
+        "id": 2,
+        "depth": 350,
+        "scoreBonus": 1.4,
+        "oxygen": 4000,
+        "oxygenGain": 8000,
+        "upgrades": [ {
+            "level": 1, "cost": 20, "time": 7000
+        }
+        ,
+        {
+            "level": 2, "cost": 50, "time": 9000
+        }
+        ,
+        {
+            "level": 3, "cost": 80, "time": 12000
+        }
+        ,
+        {
+            "level": 4, "cost": 120, "time": 14000
+        }
+        ,
+        {
+            "level": 5, "cost": 170, "time": 17000
+        }
+        ,
+        {
+            "level": 6, "cost": 250, "time": 19000
+        }
+        ,
+        {
+            "level": 7, "cost": 350, "time": 22000
+        }
+        ],
+        "levels": [ {
+            "deph": 30,
+            "distribution": {
+                "ground": 40, "rock": 7, "stone": 0, "oxygen": 7, "ded": 0, "slow": 0, "iron": 0, "dynamite": 0, "pickaxe": 0
+            }
+            ,
+            "gems": 6
+        }
+        ,
+        {
+            "deph": 60,
+            "distribution": {
+                "ground": 20, "rock": 20, "stone": 0, "oxygen": 6, "ded": 3, "slow": 0, "iron": 1, "dynamite": 0, "pickaxe": 1
+            }
+            ,
+            "gems": 10
+        }
+        ,
+        {
+            "deph": 100,
+            "distribution": {
+                "ground": 30, "rock": 10, "stone": 2, "oxygen": 6, "ded": 0, "slow": 0, "iron": 1, "dynamite": 5, "pickaxe": 1
+            }
+            ,
+            "gems": 14
+        }
+        ,
+        {
+            "deph": 150,
+            "distribution": {
+                "ground": 25, "rock": 12, "stone": 2, "oxygen": 5, "ded": 1, "slow": 10, "iron": 3, "dynamite": 0, "pickaxe": 2
+            }
+            ,
+            "gems": 20
+        }
+        ,
+        {
+            "deph": 210,
+            "distribution": {
+                "ground": 20, "rock": 15, "stone": 4, "oxygen": 5, "ded": 3, "slow": 2, "iron": 7, "dynamite": 2, "pickaxe": 2
+            }
+            ,
+            "gems": 30
+        }
+        ,
+        {
+            "deph": 270,
+            "distribution": {
+                "ground": 15, "rock": 20, "stone": 5, "oxygen": 4, "ded": 4, "slow": 3, "iron": 8, "dynamite": 1, "pickaxe": 1
+            }
+            ,
+            "gems": 40
+        }
+        ]
+    }
+    ,
+    {
+        "id": 3,
+        "depth": 450,
+        "scoreBonus": 1.6,
+        "oxygen": 10000,
+        "oxygenGain": 5000,
+        "upgrades": [ {
+            "level": 1, "cost": 30, "time": 12000
+        }
+        ,
+        {
+            "level": 2, "cost": 60, "time": 14000
+        }
+        ,
+        {
+            "level": 3, "cost": 120, "time": 16000
+        }
+        ,
+        {
+            "level": 4, "cost": 240, "time": 18000
+        }
+        ,
+        {
+            "level": 5, "cost": 360, "time": 20000
+        }
+        ,
+        {
+            "level": 6, "cost": 480, "time": 22000
+        }
+        ,
+        {
+            "level": 7, "cost": 600, "time": 24000
+        }
+        ],
+        "levels": [ {
+            "deph": 40,
+            "distribution": {
+                "ground": 40, "rock": 1, "stone": 0, "oxygen": 5, "ded": 2, "slow": 5, "iron": 0, "dynamite": 0, "pickaxe": 0
+            }
+            ,
+            "gems": 6
+        }
+        ,
+        {
+            "deph": 80,
+            "distribution": {
+                "ground": 40, "rock": 10, "stone": 10, "oxygen": 4, "ded": 3, "slow": 0, "iron": 0, "dynamite": 2, "pickaxe": 2
+            }
+            ,
+            "gems": 10
+        }
+        ,
+        {
+            "deph": 130,
+            "distribution": {
+                "ground": 40, "rock": 5, "stone": 2, "oxygen": 3, "ded": 0, "slow": 0, "iron": 10, "dynamite": 5, "pickaxe": 1
+            }
+            ,
+            "gems": 14
+        }
+        ,
+        {
+            "deph": 190,
+            "distribution": {
+                "ground": 30, "rock": 10, "stone": 2, "oxygen": 3, "ded": 1, "slow": 5, "iron": 3, "dynamite": 0, "pickaxe": 2
+            }
+            ,
+            "gems": 20
+        }
+        ,
+        {
+            "deph": 260,
+            "distribution": {
+                "ground": 25, "rock": 10, "stone": 6, "oxygen": 3, "ded": 6, "slow": 10, "iron": 3, "dynamite": 2, "pickaxe": 5
+            }
+            ,
+            "gems": 30
+        }
+        ,
+        {
+            "deph": 340,
+            "distribution": {
+                "ground": 20, "rock": 10, "stone": 7, "oxygen": 2, "ded": 5, "slow": 10, "iron": 10, "dynamite": 5, "pickaxe": 5
+            }
+            ,
+            "gems": 40
+        }
+        ]
+    }
+    ,
+    {
+        "id": 4,
+        "depth": 550,
+        "scoreBonus": 1.8,
+        "oxygen": 7000,
+        "oxygenGain": 15000,
+        "upgrades": [ {
+            "level": 1, "cost": 10, "time": 9000
+        }
+        ,
+        {
+            "level": 2, "cost": 100, "time": 11000
+        }
+        ,
+        {
+            "level": 3, "cost": 200, "time": 15000
+        }
+        ,
+        {
+            "level": 4, "cost": 300, "time": 17000
+        }
+        ,
+        {
+            "level": 5, "cost": 400, "time": 19000
+        }
+        ,
+        {
+            "level": 6, "cost": 500, "time": 23000
+        }
+        ,
+        {
+            "level": 7, "cost": 600, "time": 25000
+        }
+        ],
+        "levels": [ {
+            "deph": 40,
+            "distribution": {
+                "ground": 60, "rock": 1, "stone": 2, "oxygen": 5, "ded": 3, "slow": 4, "iron": 5, "dynamite": 6, "pickaxe": 7
+            }
+            ,
+            "gems": 6
+        }
+        ,
+        {
+            "deph": 90,
+            "distribution": {
+                "ground": 50, "rock": 8, "stone": 6, "oxygen": 4, "ded": 10, "slow": 11, "iron": 12, "dynamite": 13, "pickaxe": 14
+            }
+            ,
+            "gems": 10
+        }
+        ,
+        {
+            "deph": 140,
+            "distribution": {
+                "ground": 40, "rock": 15, "stone": 11, "oxygen": 3, "ded": 17, "slow": 18, "iron": 19, "dynamite": 10, "pickaxe": 10
+            }
+            ,
+            "gems": 14
+        }
+        ,
+        {
+            "deph": 200,
+            "distribution": {
+                "ground": 30, "rock": 0, "stone": 8, "oxygen": 3, "ded": 0, "slow": 0, "iron": 10, "dynamite": 2, "pickaxe": 2
+            }
+            ,
+            "gems": 20
+        }
+        ,
+        {
+            "deph": 300,
+            "distribution": {
+                "ground": 20, "rock": 0, "stone": 0, "oxygen": 3, "ded": 7, "slow": 10, "iron": 0, "dynamite": 2, "pickaxe": 2
+            }
+            ,
+            "gems": 30
+        }
+        ,
+        {
+            "deph": 400,
+            "distribution": {
+                "ground": 15, "rock": 10, "stone": 10, "oxygen": 2, "ded": 9, "slow": 10, "iron": 10, "dynamite": 10, "pickaxe": 10
+            }
+            ,
+            "gems": 40
+        }
+        ]
+    }
+    ,
+    {
+        "id": 5,
+        "depth": 650,
+        "scoreBonus": 2,
+        "oxygen": 6000,
+        "oxygenGain": 8000,
+        "upgrades": [ {
+            "level": 1, "cost": 20, "time": 8000
+        }
+        ,
+        {
+            "level": 2, "cost": 60, "time": 10000
+        }
+        ,
+        {
+            "level": 3, "cost": 180, "time": 12000
+        }
+        ,
+        {
+            "level": 4, "cost": 360, "time": 14000
+        }
+        ,
+        {
+            "level": 5, "cost": 720, "time": 16000
+        }
+        ,
+        {
+            "level": 6, "cost": 1500, "time": 19000
+        }
+        ,
+        {
+            "level": 7, "cost": 3000, "time": 22000
+        }
+        ],
+        "levels": [ {
+            "deph": 50,
+            "distribution": {
+                "ground": 10, "rock": 10, "stone": 0, "oxygen": 6, "ded": 0, "slow": 0, "iron": 0, "dynamite": 0, "pickaxe": 0
+            }
+            ,
+            "gems": 8
+        }
+        ,
+        {
+            "deph": 100,
+            "distribution": {
+                "ground": 12, "rock": 10, "stone": 0, "oxygen": 5, "ded": 0, "slow": 0, "iron": 10, "dynamite": 5, "pickaxe": 0
+            }
+            ,
+            "gems": 12
+        }
+        ,
+        {
+            "deph": 200,
+            "distribution": {
+                "ground": 14, "rock": 10, "stone": 0, "oxygen": 5, "ded": 0, "slow": 10, "iron": 3, "dynamite": 4, "pickaxe": 0
+            }
+            ,
+            "gems": 16
+        }
+        ,
+        {
+            "deph": 300,
+            "distribution": {
+                "ground": 16, "rock": 10, "stone": 7, "oxygen": 4, "ded": 0, "slow": 4, "iron": 3, "dynamite": 3, "pickaxe": 0
+            }
+            ,
+            "gems": 20
+        }
+        ,
+        {
+            "deph": 400,
+            "distribution": {
+                "ground": 18, "rock": 10, "stone": 4, "oxygen": 4, "ded": 8, "slow": 4, "iron": 3, "dynamite": 3, "pickaxe": 10
+            }
+            ,
+            "gems": 30
+        }
+        ,
+        {
+            "deph": 500,
+            "distribution": {
+                "ground": 20, "rock": 10, "stone": 3, "oxygen": 3, "ded": 3, "slow": 3, "iron": 3, "dynamite": 4, "pickaxe": 4
+            }
+            ,
+            "gems": 40
+        }
+        ]
+    }
+    ]
+}

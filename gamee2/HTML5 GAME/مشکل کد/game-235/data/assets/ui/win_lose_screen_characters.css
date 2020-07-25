@@ -1,0 +1,38 @@
+/* -----------------------------------------------------
+   created with https://www.codeandweb.com/texturepacker
+   -----------------------------------------------------
+   $TexturePacker:SmartUpdate:d809b8d123c7301e91ada0793e605ae0:c1a838e1dcce66b2ee08a42151324dcb:af4b3e9e9f958c5c45c471ed5ea5324d$
+   -----------------------------------------------------
+
+   usage: <span class="{-spritename-} sprite"></span>
+
+   replace {-spritename-} with the sprite you like to use
+
+*/
+
+.win_lose_screen_characters {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(win_lose_screen_characters.png);}
+
+.lost_female1 {width:188px; height:174px; background-position: -1px -1px}
+.lost_female2 {width:188px; height:174px; background-position: -191px -1px}
+.lost_female3 {width:188px; height:174px; background-position: -381px -1px}
+.lost_female4 {width:188px; height:174px; background-position: -571px -1px}
+.lost_female5 {width:188px; height:174px; background-position: -761px -1px}
+.lost_female6 {width:188px; height:174px; background-position: -1px -177px}
+.lost_male1 {width:188px; height:174px; background-position: -1px -353px}
+.lost_male2 {width:188px; height:174px; background-position: -1px -529px}
+.lost_male3 {width:188px; height:174px; background-position: -1px -705px}
+.lost_male4 {width:188px; height:174px; background-position: -191px -177px}
+.lost_male5 {width:188px; height:174px; background-position: -381px -177px}
+.lost_male6 {width:188px; height:174px; background-position: -571px -177px}
+.win_female1 {width:188px; height:174px; background-position: -761px -177px}
+.win_female2 {width:188px; height:174px; background-position: -191px -353px}
+.win_female3 {width:188px; height:174px; background-position: -191px -529px}
+.win_female4 {width:188px; height:174px; background-position: -191px -705px}
+.win_female5 {width:188px; height:174px; background-position: -381px -353px}
+.win_female6 {width:188px; height:174px; background-position: -571px -353px}
+.win_male1 {width:188px; height:174px; background-position: -761px -353px}
+.win_male2 {width:188px; height:174px; background-position: -381px -529px}
+.win_male3 {width:188px; height:174px; background-position: -381px -705px}
+.win_male4 {width:188px; height:174px; background-position: -571px -529px}
+.win_male5 {width:188px; height:174px; background-position: -761px -529px}
+.win_male6 {width:188px; height:174px; background-position: -571px -705px}
