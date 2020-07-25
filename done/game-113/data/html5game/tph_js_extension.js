@@ -320,10 +320,10 @@ function gamee_logEvent(name, value) {
 
 
 function gamee_gameOver() {
-    alert("!");
+  
     if (gameeState === eGameeState.ready) {
         gamee.gameOver();
-        console.log("1>>");
+     
 
     }
 }
@@ -331,11 +331,12 @@ function gamee_gameOver() {
 
 
 function gamee_setScore(score) {
- 
+    console.log("1>>");
     global_score=score;
+    console.log("12>>");
     gamee.updateScore(score);
     if (gameeState === eGameeState.ready) {
-      
+        console.log("13>>");
 
     }
 }
