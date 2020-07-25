@@ -59,7 +59,7 @@
 
 </head> 
  
-<body onload="gameS()">
+<body >
 	<div id="fb-root"></div>
 	
 	<script>
@@ -130,7 +130,16 @@
 	<!-- <script src="jquery-2.1.1.min.js"></script> -->
 
 	<script src="gamee-js.min.js"></script>
+	<script>
+	
+		setTimeout(() => {
+		
+			gamee.emitter.dispatchEvent(new Event('start'))
+		console.log("start")
+		}, 2000);
 
+	
+</script>
 	
     <!-- The runtime script.  You can rename it, but don't forget to rename the reference here as well.
     This file will have been minified and obfuscated if you enabled "Minify script" during export. -->
@@ -183,17 +192,7 @@
 			}
 		};
 	</script>
-	<script>
-		function gameS() {
-			setTimeout(() => {
-			
-				gamee.emitter.dispatchEvent(new Event('start'))
-			
 
-			}, 2000);
-
-		}
-	</script>
 	<script>
 		function mute() {
 		setTimeout(() => {
