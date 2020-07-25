@@ -1,0 +1,120 @@
+<html>
+<meta charset="utf-8" />
+<meta http-equiv="cache-control" content="max-age=0" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="-1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+<meta http-equiv="pragma" content="no-cache" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous" ></script>
+
+<head>
+	<title>Bowman Minigame</title>
+
+	<!--Style sheets-->
+	<link rel="stylesheet" type="text/css" href="css/minigame.css">
+	<style>
+		canvas{
+		  height: 580px!important;
+		}
+	  </style>
+</head>
+	<body>
+		<!-- <div style="background-color: aliceblue;display: flex;justify-content: space-between; color: black; ">
+        
+        <img   id="toggle" class="red" id="tttt" src="./assets/puse.svg" alt="3dote"> 
+        
+            <button style=" font-size: 0.6rem; text-align: center;" id="score" type="button" class="ml-5 btn btn-success" >0      </button>
+           
+           <div>
+            <img  id="mute" src="./assets/mute.svg" alt="3dote">
+            <img  id="unmute" src="./assets/unmute.svg" alt="3dote">
+           </div>
+           
+    </div> -->
+	<!--Core Libs-->
+	<script src="libs/phaser.min.js" defer></script>
+
+	<!--Scenes-->
+	<script src="js/scenes/bowman.js" defer></script>
+	<script src="libs/scenes/preloaders/epic.js" defer></script>
+
+	<!--Helpers-->
+	<script src="libs/helpers/sound.js" defer ></script>
+	<script src="libs/helpers/sceneloader.js" defer></script>
+	<script src="libs/helpers/gamee-js.min.js" defer ></script>
+
+	<!--Entry point-->
+	<script src="js/main.js" type="text/javascript" defer ></script>
+	<button id="success" type="button" style="display: none;" class="btn btn-primary" data-toggle="modal" data-target="#myModal"  data-backdrop="static" data-keyboard="false">
+
+    </button>
+    
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">     
+         
+          <div class="modal-body">
+             <p style="text-align: right;" >برای شروع دوباره کلیک کنید</p>
+          <img data-dismiss="modal" style=" display: block; margin: 0 auto;" onclick="onRestart();score()" src="./assets/play.svg" alt="">
+          </div>
+          
+       
+        </div>
+      </div>
+    </div>
+
+   
+    <script>
+        $('#toggle').click(function(){
+          $(this).toggleClass('red green');
+        if  ($("#toggle").hasClass("red")) {
+            
+		  console.log("unpause")
+		  window.gamee.emitter.dispatchEvent(new Event("resume"))
+		  
+      } else if  ($("#toggle").hasClass("green")) {
+         
+		window.gamee.emitter.dispatchEvent(new Event("pause"))
+
+          console.log("pause")
+        }
+        })
+		</script>
+		   <script>
+			$('#mute').click(function(){
+				window.gamee.emitter.dispatchEvent(new Event("mute"))
+			})
+			</script>
+			   <script>
+				$('#unmute').click(function(){
+					window.gamee.emitter.dispatchEvent(new Event("unmute"))
+				})
+				</script>
+           <script>
+            function score(){
+        
+              var tmp=0
+                  
+                  $("#score").html(tmp)
+            }
+          </script>
+
+	<script>
+		function onRestart(){
+			window.gamee.emitter.dispatchEvent(new Event("start"))
+
+		}
+		setTimeout(() => {
+
+			onRestart()
+		}, 3000);
+	</script>
+
+	</body>
+</html>
+

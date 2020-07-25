@@ -21,67 +21,34 @@
 </head>
 <body>
     <div id="content"></div>
-    <div style="    position: absolute;top: 0px;width: 100%;display: flex;justify-content: space-between;"  >
-    <div>
-      <div class="" style="margin-bottom: 5px;">
-        <button
-          style="width: 100%; font-size: 0.8rem; text-align: center;"
-          type="button"
-          class="SeeMore2 btn btn-success"
-        onclick=	"gamee.onRestart()"
-        >
-          شروع
-        </button>
+  <!-- <div style="background-color: aliceblue;display: flex;justify-content: space-between; color: black; ">
+        <img   id="toggle" class="red" id="tttt" src="./assets/puse.svg" alt="3dote"> 
+        
+            <button style=" font-size: 0.8rem; text-align: center;" id="score" type="button" class="btn btn-success" >0      </button>
+           
+           <div>
+            <img  onclick="gamee.onMute()" src="./assets/mute.svg" alt="3dote">
+            <img  onclick="gamee.onUnmute()" src="./assets/unmute.svg" alt="3dote">
+           </div>
+           
+      </div> -->
+      <button id="success" type="button" style="display: none;" class="btn btn-primary" data-toggle="modal" data-target="#myModal"  data-backdrop="static" data-keyboard="false">
+
+      </button>
+      <!-- The Modal -->
+      <div class="modal" id="myModal">
+        <div class="modal-dialog">
+        <div class="modal-content">     
+         
+          <div class="modal-body">
+           <p style="text-align: right;">برای شروع دوباره کلیک کنید</p>
+          <img data-dismiss="modal" style=" display: block; margin: 0 auto;" onclick="gamee.onRestart()" src="./assets/play.svg" alt="">
+          </div>
+          
+         
+        </div>
+        </div>
       </div>
-    </div>
-<div>
-  <div class="" style="margin-bottom: 5px;">
-    <button
-      style="width: 100%; font-size: 0.8rem; text-align: center;" type="button" class="btn btn-danger"
-      onclick=gamee.onPause()
-    >
-      وقفه
-    </button>
-  </div>
-
-  <div class="" style="margin-bottom: 5px;">
-    <button
-      style="width: 100%; font-size: 0.8rem; text-align: center;"
-      type="button"
-      class="btn btn-warning"
-      onclick=gamee.onResume()
-    >
-      ادامه
-    </button>
-  </div>
-  <div class="" style="margin-bottom: 5px;">
-    <button
-      style="width: 100%; font-size: 0.8rem; text-align: center;"
-      type="button"
-      class="btn btn-white"
-      onclick=gamee.onMute()
-    >   
-      بی صدا
-    </button>
-  </div>    <div class="" style="margin-bottom: 5px;">
-    <button
-      style="width: 100%; font-size: 0.8rem; text-align: center;"
-      type="button"
-      class="btn btn-info"
-      onclick=gamee.onUnmute()
-    >
-      با صدا
-    </button>
-  </div>
-
-  <div id="done">	<button 
-    style=" width: 100%;
-    font-size: 0.8rem;
-    text-align: center;"
-      class="btn btn-success"
-    type="button"   id="score"> 0</button></div>
-</div>
-</div>
 
 </body>
 </html>
