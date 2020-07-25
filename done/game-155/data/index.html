@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous" ></script>
 
     <meta charset="utf-8" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous" ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous" ></script>
-      
 	<title>Aerial Dogfight</title>
     <meta name="viewport" content="width=320, initial-scale=1">
 	<style type="text/css">
@@ -15,66 +14,157 @@
 		  margin: 0;
 		  padding: 0;
 		}
-    canvas{
-      height: 580px!important;
+    body {
+      background: #000000;
+      color:#cccccc;
+      margin: 0px;
+      padding: 0px;
+      border: 0px;
     }
-	</style>        
+    canvas {
+              image-rendering: optimizeSpeed;
+              -webkit-interpolation-mode: nearest-neighbor;
+              -ms-touch-action: none;
+              margin: 0px;
+              padding: 0px;
+              border: 0px;
+              height: 598px !important; 
+               width: 590px!important;
+    }
+    @media only screen and (max-width: 780px) {
+              canvas {
+                image-rendering: optimizeSpeed;
+              -webkit-interpolation-mode: nearest-neighbor;
+              -ms-touch-action: none;
+              margin: 0px;
+              padding: 0px;
+              border: 0px;
+              height: 90vh !important; 
+             width: 100%!important; 
+
+  }
+}
+    :-webkit-full-screen #canvas {
+         width: 100%;
+         height: 100%;
+    }
+    div.gm4html5_div_class
+    {
+      margin: 0px;
+      padding: 0px;
+      border: 0px;
+    }
+    :-webkit-full-screen {
+       width: 100%;
+       height: 100%;
+    }
+    #res-controller {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 90% !important;                
+        bottom: 0%;
+}
+.up-btn{
+border: none;
+position: absolute;
+left: 0;
+top: 0;
+height: 50% !important;
+width: 100%;
+background: none;
+outline: none!important ;
+box-shadow: none!important ;
+}
+.bottom-btn{
+border: none;
+position: absolute;
+left: 0;
+bottom: 0;
+height: 50% !important;
+width: 100%;
+background: none;
+outline: none!important ;
+box-shadow: none!important ;
+}
+	</style>
+        
     <script type="text/javascript" src="libs/gamee.all.min.js"></script>
 	<script type="text/javascript" src="libs/phaser.min.js"></script>
     <script type="text/javascript" src="js/adf.js"></script>
     </head>
 	<body>
-    <div style="background-color: aliceblue;display: flex;justify-content: space-between; color: black; ">
-        
-      <img   id="toggle" class="red" id="tttt" src="./assets/puse.svg" alt="3dote"> 
-      
-          <button style=" font-size: 0.6rem; text-align: center;" id="score" type="button" class="ml-5 btn btn-success" >0      </button>
-         
-         <div>
-          <img  onclick="gamee.onMute()" src="./assets/mute.svg" alt="3dote">
-          <img  onclick="gamee.onUnmute()" src="./assets/unmute.svg" alt="3dote">
-         </div>
-         
-        </div>
-    <div id="content"></div>
-    <button id="success" type="button" style="display: none;" class="btn btn-primary" data-toggle="modal" data-target="#myModal"  data-backdrop="static" data-keyboard="false">
+		<div id="content"></div>
 
-    </button>
-    
-    <!-- The Modal -->
-    <div class="modal" id="myModal">
-      <div class="modal-dialog">
-        <div class="modal-content">     
-         
-          <div class="modal-body">
-             <p style="text-align: right;">برای شروع دوباره کلیک کنید</p>
-          <img data-dismiss="modal" style=" display: block; margin: 0 auto;" onclick="gamee.onRestart();score()" src="./assets/play.svg" alt="">
-          </div>
-          
-       
-        </div>
-      </div>
+ 
+
+
+<!-- <div style="background-color: aliceblue;display: flex;justify-content: space-between; color: black; ">
+    <img id="toggle" class="red" id="tttt" src="./assets/puse.svg" alt="3dote">
+
+    <button style=" font-size: 0.8rem; text-align: center;" id="score" type="button" class="btn btn-success">0 </button>
+
+    <div>
+      <img onclick="gamee.onMute()" src="./assets/mute.svg" alt="3dote">
+      <img onclick="gamee.onUnmute()" src="./assets/unmute.svg" alt="3dote">
     </div>
 
-<script>
-  $('#toggle').click(function(){
-    $(this).toggleClass('red green');
-  if  ($("#toggle").hasClass("red")) {
-    console.log("pause")
-    gamee.onResume()
-  } else if  ($("#toggle").hasClass("green")) {
-    gamee.onPause()
-    console.log("unpause")
-  }
-  })
+  </div> -->
+  
+  <div id="res-controller">
+
+    <button class="bottom-btn"  ontouchstart="gamee.controller.trigger('keydown', {button : 'down' });"
+    ontouchend="gamee.controller.trigger('keyup', {button : 'down' });"> <span></span>
+    </button>
+    <button class="up-btn"
+          ontouchstart="gamee.controller.trigger('keydown', {button : 'up' });"
+          ontouchend="gamee.controller.trigger('keyup', {button : 'up' });">
+          <span></span></button>
+  </div>
+  <!-- Button to Open the Modal -->
+  <button id="success" type="button" style="display: none;" class="btn btn-primary" data-toggle="modal"
+    data-target="#myModal" data-backdrop="static" data-keyboard="false">
+
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-body">
+          <p style="text-align: right;">برای شروع دوباره کلیک کنید</p>
+          <img data-dismiss="modal" style=" display: block; margin: 0 auto;" onclick="gamee.onRestart()"
+            src="./assets/play.svg" alt="">
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  <script>
+    $('#toggle').click(function () {
+      $(this).toggleClass('red green');
+      if ($("#toggle").hasClass("red")) {
+        console.log("pause")
+        gamee.onResume()
+      } else if ($("#toggle").hasClass("green")) {
+        gamee.onPause()
+        console.log("unpause")
+      }
+    })
   </script>
-     <script>
-      function score(){
-        var tmp=0
-            
-            $("#score").html(tmp)
+  <script>
+    function ArrowLeft(){
+      gamee.controller.trigger('keydown', {button : 37});
+      console.log("left")
+    } 
+  </script>
+    <script>
+      function ArrowRight(){
+        gamee.controller.trigger('keydown', {button : 39});
+        console.log("right")
       }
     </script>
-
 	</body>
 </html>
