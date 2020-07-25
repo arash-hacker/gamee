@@ -59,17 +59,48 @@
         height: 90% !important;                
         bottom: 0%;
 }
-.central-btn{
-border: none;
-position: absolute;
-left: 0;
-bottom: 0;
-height: 100% !important;
-width: 100%;
-background: none;
-outline: none!important ;
-box-shadow: none!important ;
-}
+.left-btn {
+        border: none;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 30% !important;
+        width: 50%;
+        background: none;
+        outline: none !important;
+        box-shadow: none !important;
+      }
+
+      .right-btn {
+        border: none;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        height: 30% !important;
+        width: 50%;
+        background: none;
+        outline: none !important;
+        box-shadow: none !important;
+      }
+
+      .left-btn span {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 80%;
+        height: 6%;
+        background: rgb(216, 216, 216) !important;
+      }
+
+      .right-btn span {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 80%;
+        height: 6%;
+        background-color: rgb(216, 216, 216) !important;
+      }
+    
             :-webkit-full-screen #canvas {
                  width: 100%;
                  height: 100%;
@@ -131,6 +162,13 @@ box-shadow: none!important ;
                <p>Your browser doesn't support HTML5 canvas.</p>
             </canvas>
         </div>
+        <button class="left-btn"  ontouchstart="gamee.controller.trigger('keydown', {button : 'left' });"
+        ontouchend="gamee.controller.trigger('keyup', {button : 'left' });"> <span>left</span>
+        </button>
+        <button class="right-btn"
+              ontouchstart="gamee.controller.trigger('keydown', {button : 'right' });"
+              ontouchend="gamee.controller.trigger('keyup', {button : 'right' });">
+              <span>right</span></button>
         <button id="success" type="button" style="display: none;" class="btn btn-primary" data-toggle="modal" data-target="#myModal"  data-backdrop="static" data-keyboard="false">
 
         </button>

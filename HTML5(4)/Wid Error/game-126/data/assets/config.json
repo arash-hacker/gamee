@@ -1,0 +1,35 @@
+{
+  "firstLineOffset": 100,
+  "lineSpread": 130,
+  "lineSpreadMultiplierMin": 1.0,
+  "lineSpreadMultiplierMax": 1.5,
+  "lineSpeedMin": 100,
+  "lineSpeedMax": 180,
+
+  "scrollSpeedMin": 120,
+  "scrollSpeedMax": 260,
+  "dotSpeed": 7.35,
+  "difficultyCoef": 0.96,
+  "difficultyStep": 1,
+
+  "patterns": [
+    [190],
+    [180],
+    [70, 210],
+    [80, 190],
+    [70, 160, 190, 210],
+    [80, 150, 180, 200]
+  ],
+  
+  "colorLinesCounter": 4,
+  "colorChanges": {
+    "blueDark": ["blueLight", "green"],
+    "blueLight": ["blueDark", "white", "green"],
+    "green": ["blueLight", "white", "pink"],
+    "pink": ["orange", "white", "green"],
+    "orange": ["white", "pink"],
+    "white": ["blueLight", "green", "pink"]
+  },
+  
+  "bonusProbabilityPercent" : 3
+}
