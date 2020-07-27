@@ -2,14 +2,13 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous" ></script> -->
 
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous" ></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous" ></script> -->
-
-<title>Gamee | Voyager</title>
+    <meta charset="utf-8" />
+    <title>Gamee | Dragons 3+3</title>
     <meta name="viewport" content="width=device-width, minimum-scale=1">
 
     <style>
@@ -18,7 +17,7 @@
             overflow-x: hidedn;
             margin: 0;
             padding: 0;
-            background-color: #000437;
+            background-color: #000000;
         }
 
         #content {
@@ -31,6 +30,15 @@
 
         #gm4html5_div_id {
         
+            width: 100%;
+            height: 100%;
+
+
+            background-image: url("assets/extension.png");
+
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+
             position: absolute;
         
         }
@@ -43,9 +51,11 @@
         }
 
         @font-face {
-            font-family: 'conthrax';
-            src: url('assets/fonts/conthrax-sb.ttf');
+            font-family: 'TitanOne';
+            src: url('assets/fonts/TitanOne.ttf');
         }
+
+
     </style>
 
 </head>
@@ -53,26 +63,29 @@
 
     <!--font buffer-->
     <div class="fonts" style="opacity: 0; position: absolute">
-        <span style="font-family: 'conthrax', Arial, sans-serif;">x</span>
+        <span style="font-family: 'TitanOne', Arial, sans-serif;">x</span>
     </div>
     <!--/font buffer-->
 
     <div id="gm4html5_div_id">
 
         <menu id="controls">
-            <!--<button onclick="game.test(); this.blur();">Spin</button>-->
-            <!--<button onclick="test.stopSpin();this.blur();">Stop</button>-->
+
         </menu>
 
     </div>
-    <div style="position: absolute;top: 0px;width: 100%;display: flex;justify-content: space-between;"  >
+    <div style="    position: absolute;
+top: 0px;
+width: 100%;
+display: flex;
+justify-content: space-between;"  >
     <div>
       <div class="" style="margin-bottom: 5px;">
         <button
           style="width: 100%; font-size: 0.8rem; text-align: center;"
           type="button"
           class="SeeMore2 btn btn-success"
-        onclick=	"game.startGame()"
+        onclick=	"gamee.emitter.dispatchEvent(new Event('start'));"
         >
           شروع
         </button>
@@ -106,7 +119,7 @@
       type="button"
       class="btn btn-white"
       onclick=gamee.onMute()
-    >   
+    >
       بی صدا
     </button>
   </div>    <div class="" style="margin-bottom: 5px;">
@@ -128,12 +141,12 @@
     type="button"   id="score"> 0</button></div>
 </div>
 </div>
-    <script src="js/pixi.min.js" ></script>
-    <script src="js/howler.core.min.js" defer></script>
-    <script src="js/gamee-js.min.js" defer></script>
-    <script type="text/javascript" src="js/stats.min.js" defer></script>
-    
-    <script src="js/game.js" defer></script>
+    <script src="js/howler.core.min.js"></script>
+    <script src="js/pixi.min.js"></script>
+    <script src="js/gamee-js.min.js"></script>
+    <script type="text/javascript" src="js/stats.min.js"></script>
+
+    <script src="js/game.js"></script>
 </body>
 </html>
 
